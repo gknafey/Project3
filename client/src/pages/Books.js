@@ -12,22 +12,8 @@ import Image3 from "../images/Interior.jpg"
 import { Slide } from 'react-slideshow-image';
 import Slides from "../components/Slides";
 
-const slideImages = [
-  Image1,
-  Image2,
-  Image3
-];
- 
-const properties = {
-  duration: 5000,
-  transitionDuration: 500,
-  infinite: true,
-  indicators: true,
-  arrows: true,
-  onChange: (oldIndex, newIndex) => {
-    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-  }
-};
+
+
 
 class Books extends Component {
   state = {
@@ -37,16 +23,21 @@ class Books extends Component {
     synopsis: ""
   };
 
-  
+
 
   render() {
-    
+
     return (
-      
-      <Slides></Slides>
-              
-            );
-          }
-        }
-        
-        export default Books;
+      <div>
+        <Slides>
+          <div>
+            <h1>Plasterers</h1>
+          </div>
+        </Slides>
+        <Jumbotron></Jumbotron>
+      </div>
+    );
+  }
+}
+
+export default Books;

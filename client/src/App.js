@@ -4,12 +4,14 @@ import Books from "./pages/Books";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
+import QuickContact from "./components/QuickContact";
 
 function App() {
   return (
     <Router>
       <div>
         <Nav />
+        <QuickContact />
         <Switch>
           <Route exact path="/" component={Books} />
           <Route exact path="/books" component={Books} />

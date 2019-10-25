@@ -6,30 +6,30 @@ function Nav() {
   return (
     <nav className="navbar">
 
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand " href="/">
         <img className="logo" src={Logo}></img>
       </a>
-      <ul class="nav justify-content-end">
-      <li class="nav-item">
-          <a class="" style={{"color": "#0C696F"}} href="#">About Us</a>
+      <ul className="nav justify-content-end">
+      <li className="nav-item">
+          <a className="nav-item test" href="#">About Us</a>
         </li>
-        <li class="nav-item">
-          <p class="nav-item" style={{"color": "#E3DBD7"}} >&nbsp;|&nbsp;</p>
+        <li className="nav-item">
+          <p className="nav-item" style={{"color": "#e5cdaa"}} >&nbsp;|&nbsp;</p>
         </li>
-        <li class="nav-item">
-          <a class="" style={{"color": "#0C696F"}} href="#">Portfolio</a>
+        <li className="nav-item">
+          <a className="nav-item test" href="#">Portfolio</a>
         </li>
-        <li class="nav-item">
-          <p class="nav-item" style={{"color": "#E3DBD7"}}>&nbsp;|&nbsp;</p>
+        <li className="nav-item">
+          <p className="nav-item" style={{"color": "#e5cdaa"}}>&nbsp;|&nbsp;</p>
         </li>
-        <li class="nav-item">
-          <a class="" style={{"color": "#0C696F"}} href="#">Services</a>
+        <li className="nav-item">
+          <a className="nav-item test"  href="#">Services</a>
         </li>
-        <li class="nav-item">
-          <p class="nav-item" style={{"color": "#E3DBD7"}}>&nbsp;|&nbsp;</p>
+        <li className="nav-item">
+          <p className="nav-item" style={{"color": "#e5cdaa"}}>&nbsp;|&nbsp;</p>
         </li>
-        <li class="nav-item">
-          <a class="" style={{"color": "#0C696F"}} href="#">Contact Us</a>
+        <li className="nav-item">
+          <a className="nav-item test"  href="#">Contact Us</a>
         </li>
       </ul>
     </nav>

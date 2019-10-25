@@ -11,6 +11,7 @@ import Image2 from "../images/12.jpg"
 import Image3 from "../images/Interior.jpg"
 import { Slide } from 'react-slideshow-image';
 import Slides from "../components/Slides";
+import Footer from "../components/Footer";
 
 
 
@@ -29,12 +30,9 @@ class Books extends Component {
 
     return (
       <div>
-        <Slides>
-          <div>
-            <h1>Plasterers</h1>
-          </div>
-        </Slides>
+        <Slides></Slides>
         <Jumbotron></Jumbotron>
+        <Footer></Footer>
       </div>
     );
   }

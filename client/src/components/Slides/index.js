@@ -1,6 +1,6 @@
 import React from "react";
 import "./slide.css";
-import Image1 from "../../images/11a.jpg"
+import Image1 from "../../images/11test.jpg"
 import Image2 from "../../images/12.jpg"
 import Image3 from "../../images/Interior.jpg"
 import Image4 from "../../images/10.jpg"
@@ -19,9 +19,7 @@ const slideImages = [
     infinite: true,
     indicators: false,
     arrows: true,
-    onChange: (oldIndex, newIndex) => {
-      console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-    }
+    
   };
 
 
@@ -31,13 +29,13 @@ function Slides() {
     <Slide {...properties}>
       <div className="each-slide">
         <div>
-          <span><img className="slides" src={slideImages[0]}></img></span>
+          <span><img className=" firstslide" src={slideImages[0]} alt="Porfolio Image Not Found"></img></span>
         </div>
       </div>
       <div className="each-slide">
         <div>
-          <span><img className="slide" src={slideImages[1]}></img>
-          <img className="slide" src={slideImages[3]}></img>
+          <span><img className="slide" src={slideImages[1]} alt="Porfolio Image Not Found"></img>
+          <img className="slide" src={slideImages[3]} alt="Porfolio Image Not Found"></img>
           </span>
         </div>
       </div>

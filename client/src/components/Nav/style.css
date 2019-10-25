@@ -1,10 +1,21 @@
 .logo {
     width: 325px;
     height: 175px;
+    align-content: center;
 }
 
 .navbar {
     font-size: 32px;
+}
+.test {
+    color: #00476B;
+    padding-right: 20px;
+}
+.test:hover {
+    
+    color: #c18227;
+    
+    
 }
 
 

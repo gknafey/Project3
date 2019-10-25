@@ -4,9 +4,13 @@
     background-color: #00476B;
     height: 60px;
     font-size: 27px;
-    
+    padding: 10px 40px 0 0;
 }
 
-.email:hover, .email {
+.email {
     color: white;
+}
+
+.email:hover {
+    color: #e5cdaa;
 }

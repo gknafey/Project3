@@ -1,11 +1,12 @@
 .requestA {
+    /* position: absolute; */
     width: 30%;
     height: 100%;
     background-color: #00476b;
     text-align: left;
     border: solid 3px #e5cdaa;
     float: right;
-    top: -925px;
+   
 }
 
 .card-header {
@@ -21,7 +22,7 @@
     font-size: 20px;
 }
 
-.aboutButton {
+.FormButton {
     position: relative;
     top: -20px;
     left: -40px;

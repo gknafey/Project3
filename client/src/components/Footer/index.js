@@ -8,7 +8,10 @@ function Footer() {
         <div className="container-max-width footer">
             <div className="row footBorder">
                 <div className="col-5">
-                   <p className="headLink">Affiliate Links</p> 
+                   <p className="headLink">Affiliate Links <br></br></p> 
+
+                   <a href="https://www.homeadvisor.com/rated.PlasterRestorationsLLC.43338900.html" to="#">Home Advisor</a>
+
                 </div>
                 <div className="col-3">
 

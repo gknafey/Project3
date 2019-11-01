@@ -5,16 +5,19 @@ import "./style.css";
 function Footer() {
     return (
 
-        <div class="container-max-width footer">
-            <div class="row">
-                <div class="col-5">
-                    One of three columns
+        <div className="container-max-width footer">
+            <div className="row footBorder">
+                <div className="col-5">
+                   <p className="headLink">Affiliate Links</p> 
                 </div>
-                <div class="col-3">
-                    One of three columns
+                <div className="col-3">
+
                 </div>
-                <div class="col-3">
-                    One of three columns
+                <div className="col-3">
+                    <p className="headLink">Admin Links <br></br></p>
+                    
+                    <a href="#" to="#">Login</a>
+
                 </div>
             </div>
         </div>

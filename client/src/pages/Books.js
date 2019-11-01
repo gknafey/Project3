@@ -12,6 +12,10 @@ import Image3 from "../images/Interior.jpg"
 import { Slide } from 'react-slideshow-image';
 import Slides from "../components/Slides";
 import Footer from "../components/Footer";
+import LinkBtn from "../components/LinkBtn";
+import AboutUsInfo from "../components/AboutUs";
+import AboutImage from "../components/AboutImage";
+import RequestAQuote from "../components/RequestAQuote";
 
 
 
@@ -30,9 +34,17 @@ class Books extends Component {
 
     return (
       <div>
-        <Slides></Slides>
-        <Jumbotron></Jumbotron>
-        <Footer></Footer>
+        <Slides />
+        <LinkBtn />
+        <Jumbotron>
+          <span>
+            <AboutUsInfo /> 
+            <AboutImage />
+            <RequestAQuote />
+          </span>
+
+        </Jumbotron>
+        <Footer />
       </div>
     );
   }

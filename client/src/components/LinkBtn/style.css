@@ -1,0 +1,17 @@
+.btn {
+    color: #fff;
+    font-size: 25px;
+    background-color: #37c4bd;
+    background-color: #00476b;
+    /* background-color: #e5cdaa; */
+    /* background-color: #c18227; */
+    border-radius: 0;
+    width: 33.33%;
+    float: right;
+}
+
+.btn:hover {
+    background-color: #37c4bd;
+}
+
+

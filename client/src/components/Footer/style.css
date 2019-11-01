@@ -8,3 +8,11 @@
     color: white;
     text-align: center;
 }
+
+.footBorder {
+    padding: 20px;
+}
+
+.headLink {
+    font-size: 20px;
+}

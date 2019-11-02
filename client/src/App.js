@@ -5,6 +5,7 @@ import AboutUs from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
+import FormInfo from "./pages/Form"
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
 import QuickContact from "./components/QuickContact";
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/Services" component={Services} />
           <Route exact path="/ContactUs" component={ContactUs} />
+          <Route exact path='/RequestForm' component={FormInfo} />
           <Route component={NoMatch} />
         </Switch>
         <Footer />

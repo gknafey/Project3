@@ -1,0 +1,28 @@
+
+
+.shape {
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    width: 95%;
+    height: 100%;
+}
+
+.aboutImg3 {
+
+    width: 32.75%;
+    max-height: 600px;
+   
+    border: solid 3px #e5cdaa;
+    border-radius: 3px;
+    
+    margin: 0 20px 20px 150px;
+} 
+
+.aboutImg2 {
+    width: 40%;
+    max-height: 600px;
+    border: solid 3px #e5cdaa;
+    border-radius: 3px;
+    
+    margin: -40px 0 20px 140px;
+}

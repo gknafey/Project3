@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../components/Grid";
-
+import AboutPageInfo from "../components/AboutPageInfo"
+import AboutPageImages from "../components/AboutPageImages";
 
 class AboutUs extends Component {
   state = {
@@ -10,7 +11,8 @@ class AboutUs extends Component {
   render() {
     return (
       <Container fluid>
-        <h1>About Us</h1>
+        <AboutPageInfo />
+        <AboutPageImages />
       </Container>
     );
   }

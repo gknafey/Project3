@@ -1,0 +1,28 @@
+.contact-info {
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    width: 70%;
+    height: 100%;
+    color: #fff;
+    background-color: #00476b; 
+    border: solid 3px #e5cdaa;
+    border-radius: 3px;
+}
+
+.media-body {
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.img-orientation {
+    float: left;
+    border: solid 3px #e5cdaa;
+    border-radius: 3px;
+    margin-right: 80px;
+    margin-top: 10px;
+
+}
+
+.shift-right {
+    margin-left: 50px;
+}

@@ -8,7 +8,7 @@ function AboutPageInfo() {
         
         <div className="media content">
             <div className="media-body">
-                <h2 className="mt-0 mb-1">About Us</h2>
+                <h1 className="mt-0 mb-1 shift">About Us</h1>
                 <br></br>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.

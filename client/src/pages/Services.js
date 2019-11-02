@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../components/Grid";
+import ServicesPageInfo from "../components/ServicesPageInfo"
 
 
 class Services extends Component {
@@ -10,7 +11,7 @@ class Services extends Component {
   render() {
     return (
       <Container fluid>
-        <h1>Services listed Here</h1>
+        <ServicesPageInfo />
       </Container>
     );
   }

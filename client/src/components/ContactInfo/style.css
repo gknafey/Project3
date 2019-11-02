@@ -9,9 +9,12 @@
     border-radius: 3px;
 }
 
-.media-body {
-    font-size: 30px;
+.contact-text {
     line-height: 70px;
+}
+
+.contact-text-size {
+    font-size: 30px;
 }
 
 .img-orientation {

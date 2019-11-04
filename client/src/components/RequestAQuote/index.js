@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 
@@ -13,7 +14,7 @@ function RequestAQuote() {
             <p className="card-text">Due to the nature of plastering it is often difficult to give a correct quote over the phone without one of our employees visiting the site personally to inspect the area where work must be done. <br></br><br></br><br></br> Click on the button to make a request </p>
             </div>
 
-            <a><button type="button" className="btn btn-lg FormButton">Form</button></a>
+            <Link to="/RequestForm"><a><button type="button" className="btn btn-lg customBtn FormButton">Form</button></a></Link>
         </div>
 
     

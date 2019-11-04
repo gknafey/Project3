@@ -7,6 +7,11 @@ class FormInfo extends Component {
     state = {
       
     };
+
+    componentDidMount() {
+      window.scrollTo(0, 210);
+  }
+    
     
     render() {
       return (

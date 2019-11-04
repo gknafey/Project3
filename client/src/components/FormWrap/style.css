@@ -1,0 +1,31 @@
+.QuoteBtn {
+    color: #fff;
+    font-size: 25px;
+    background-color: #37c4bd;
+    background-color: #00476b;
+    border: solid 3px #e5cdaa;
+    border-radius: 3px;
+   
+}
+
+.quote-size {
+    font-size: 25px;
+}
+
+.quote-text-width {
+    width: 40%;
+}
+
+.quote-area-width {
+    width: 50%;
+    height: 200px;
+}
+
+.logo-location2 {
+    max-width: 40%;
+    background-color: #fff;
+    float: right;
+    margin-right: 10%;
+    border: solid 10px #e5cdaa;
+    border-radius: 75px;
+}

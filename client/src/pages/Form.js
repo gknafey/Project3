@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../components/Grid";
+import FormWrap from "../components/FormWrap";
 
 
 class FormInfo extends Component {
@@ -10,7 +11,7 @@ class FormInfo extends Component {
     render() {
       return (
         <Container fluid>
-          <h1>FormInfo Here</h1>
+          <FormWrap />
         </Container>
       );
     }

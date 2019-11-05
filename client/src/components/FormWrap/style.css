@@ -29,3 +29,7 @@
     border: solid 10px #e5cdaa;
     border-radius: 75px;
 }
+
+#phonePrefix {
+    width: 5%;
+}

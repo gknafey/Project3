@@ -3,6 +3,7 @@ import { Col, Row, Container } from "../components/Grid";
 import FormWrap from "../components/FormWrap";
 
 
+
 class FormInfo extends Component {
     state = {
       

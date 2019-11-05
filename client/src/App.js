@@ -5,8 +5,10 @@ import AboutUs from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
-import FormInfo from "./pages/Form"
+import FormInfo from "./pages/Form";
 import NoMatch from "./pages/NoMatch";
+import LoginInfo from "./pages/Login";
+import SignUpInfo from "./pages/Signup";
 import Nav from "./components/Nav";
 import QuickContact from "./components/QuickContact";
 import Footer from "./components/Footer";
@@ -24,6 +26,8 @@ function App() {
           <Route exact path="/Services" component={Services} />
           <Route exact path="/ContactUs" component={ContactUs} />
           <Route exact path='/RequestForm' component={FormInfo} />
+          <Route exact path='/Login' component={LoginInfo} />
+          <Route exact path='/SignUp' component={SignUpInfo} />
           <Route component={NoMatch} />
         </Switch>
         <Footer />

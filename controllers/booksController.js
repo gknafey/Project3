@@ -1,4 +1,6 @@
 const db = require("../models");
+const bcrypt = require("bcrypt");
+
 
 // Defining methods for the booksController
 module.exports = {
@@ -33,5 +35,29 @@ module.exports = {
       .then(dbModel => dbModel.remove())
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
+  },
+  createUser: function(req, res) {
+    console.log(req);
+    bcrypt.hash(req.body.password,10, function(err, hash) {
+      //store hash in your password DB
+      console.log(req.body.password)
+     req.body.password = hash;
+     console.log(hash);
+
+      db.User
+        .create(req.body)
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err));
+    });
+  },
+  signin: function (req, res) {
+    db.User
+      .find({email: req.body.email})
+      .then(dbModel => {
+        const isPassCorrect = bcrypt.compareSync(req.body.password, hash);
+        res.json(isPassCorrect);
+      })
+      .catch(err => res.status(422).json(err));
   }
+
 };

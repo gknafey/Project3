@@ -56,8 +56,20 @@ module.exports = {
       .then(dbModel => {
         console.log("Here4", dbModel)
         const isPassCorrect = bcrypt.compareSync(req.body.password, dbModel[0].password);
-        res.json(isPassCorrect); 
+        const userObj = {
+          isTrue: isPassCorrect,
+          email: req.body.email
+        }
+          res.json(userObj); 
+        
       })
+      .catch(err => res.status(422).json(err));
+  },
+  findName: function (req, res) {
+    console.log(req.params.name)
+    db.Client
+      .find({email: req.params.name})
+      .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   }
 

@@ -21,5 +21,8 @@ router
 router
   .route("/UserLogin")
   .post(clientsController.signIn);
+router  
+  .route('/Verify/:name')
+  .get(clientsController.findName);
 
 module.exports = router;

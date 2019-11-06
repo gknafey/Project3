@@ -5,6 +5,8 @@ import LinkBtn from "../components/LinkBtn";
 import AboutUsInfo from "../components/AboutUs";
 import AboutImage from "../components/AboutImage";
 import RequestAQuote from "../components/RequestAQuote";
+import API from "../utils/API";
+import { Redirect } from "react-router-dom";
 
 
 
@@ -13,6 +15,25 @@ class Homepage extends Component {
   state = {
     
   };
+
+  
+
+  componentDidMount() {
+    let name = localStorage.getItem('user');
+    console.log(name);
+    API.verifyUser(name)
+        .then(res => {
+            if(res.data[0].email || res.data.email === name) {
+                console.log(true);
+              document.getElementById("hidden").style.display = "block";
+            }
+            // console.log(res.data[0].email, "hello15")
+
+        })
+           
+        .catch(err => console.log(err));
+
+  }
 
   render() {
 

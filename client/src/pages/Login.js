@@ -25,6 +25,9 @@ class LoginInfo extends Component {
       password: this.state.password
 
     }).then(res => {
+     
+      localStorage.setItem('user', res.data.email );
+
       this.setState({ redirect: true })
       console.log(res);
     })

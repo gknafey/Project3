@@ -12,12 +12,17 @@ import SignUpInfo from "./pages/Signup";
 import Nav from "./components/Nav";
 import QuickContact from "./components/QuickContact";
 import Footer from "./components/Footer";
+import JobManagement from "./pages/JobManagement";
+import HiddenLink from "./components/Hidden";
+
+
 
 function App() {
   return (
     <Router>
       <div>
         <Nav />
+        <HiddenLink />
         <QuickContact />
         <Switch>
           <Route exact path="/" component={Homepage} />
@@ -28,6 +33,7 @@ function App() {
           <Route exact path='/RequestForm' component={FormInfo} />
           <Route exact path='/Login' component={LoginInfo} />
           <Route exact path='/SignUp' component={SignUpInfo} />
+          <Route exact path='/JobManagement' component={JobManagement} />
           <Route component={NoMatch} />
         </Switch>
         <Footer />

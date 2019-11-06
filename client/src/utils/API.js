@@ -23,6 +23,10 @@ export default {
   logInUser: function(userData) {
     console.log(userData);
     return axios.post("/api/clients/UserLogin", userData);
+  },
+  verifyUser: function(name) {
+    return axios.get("/api/clients/Verify/" + name);
   }
+
 
 };

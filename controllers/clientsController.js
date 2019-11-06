@@ -4,45 +4,44 @@ const bcrypt = require("bcrypt");
 
 // Defining methods for the booksController
 module.exports = {
-  findAll: function(req, res) {
+  findAll: function (req, res) {
     db.Client
       .find(req.query)
       .sort({ date: -1 })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
-  findById: function(req, res) {
+  findById: function (req, res) {
     db.Client
       .findById(req.params.id)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
-  create: function(req, res) {
+  create: function (req, res) {
     db.Client
       .create(req.body)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
-  update: function(req, res) {
+  update: function (req, res) {
     db.Client
       .findOneAndUpdate({ _id: req.params.id }, req.body)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
-  remove: function(req, res) {
+  remove: function (req, res) {
     db.Client
       .findById({ _id: req.params.id })
       .then(dbModel => dbModel.remove())
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
-  createUser: function(req, res) {
-    console.log(req);
-    bcrypt.hash(req.body.password,10, function(err, hash) {
+  createUser: function (req, res) {
+    bcrypt.hash(req.body.password, 10, function (err, hash) {
       //store hash in your password DB
       console.log(req.body.password)
-     req.body.password = hash;
-     console.log(hash);
+      req.body.password = hash;
+      console.log(hash);
 
       db.User
         .create(req.body)
@@ -50,12 +49,14 @@ module.exports = {
         .catch(err => res.status(422).json(err));
     });
   },
-  signin: function (req, res) {
+  signIn: function (req, res) {
+    console.log('here3', req.body.email);
     db.User
-      .find({email: req.body.email})
+      .find({ email: req.body.email })
       .then(dbModel => {
-        const isPassCorrect = bcrypt.compareSync(req.body.password, hash);
-        res.json(isPassCorrect);
+        console.log("Here4", dbModel)
+        const isPassCorrect = bcrypt.compareSync(req.body.password, dbModel[0].password);
+        res.json(isPassCorrect); 
       })
       .catch(err => res.status(422).json(err));
   }

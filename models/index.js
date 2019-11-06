@@ -1,4 +1,5 @@
 module.exports = {
   Client: require("./client"),
-  User: require("./user")
+  User: require("./user"),
+  CurrentJobs: require("./currentJobs")
 };

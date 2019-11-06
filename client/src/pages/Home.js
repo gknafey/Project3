@@ -23,11 +23,12 @@ class Homepage extends Component {
     console.log(name);
     API.verifyUser(name)
         .then(res => {
-            if(res.data[0].email || res.data.email === name) {
+            console.log(res.data)
+            if(res.data[0].email === name) {
                 console.log(true);
               document.getElementById("hidden").style.display = "block";
+              console.log(res.data.email, "hello15")
             }
-            // console.log(res.data[0].email, "hello15")
 
         })
            

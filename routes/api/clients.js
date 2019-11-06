@@ -6,6 +6,13 @@ router.route("/")
   .get(clientsController.findAll)
   .post(clientsController.create)
 
+router.route("/currentJobs")
+  .get(clientsController.findAllCurrent)
+  .post(clientsController.createCurrent)
+
+router.route("/currentJobs/:id")
+  .delete(clientsController.removeCurrentJob);
+
 
 // Matches with "/api/clients/:id"
 router
@@ -22,7 +29,7 @@ router
   .route("/UserLogin")
   .post(clientsController.signIn);
 router  
-  .route('/Verify/:name')
+  .route("/Verify/:name")
   .get(clientsController.findName);
 
 module.exports = router;

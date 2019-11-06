@@ -67,10 +67,31 @@ module.exports = {
   },
   findName: function (req, res) {
     console.log(req.params.name)
-    db.Client
+    db.User
       .find({email: req.params.name})
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
-  }
+  },
+  findAllCurrent: function (req, res) {
+    db.CurrentJobs
+      .find(req.query)
+      .sort({ date: -1 })
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+  createCurrent: function (req, res) {
+    db.CurrentJobs
+      .create(req.body)
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+  removeCurrentJob: function (req, res) {
+    db.CurrentJobs
+      .findById({ _id: req.params.id })
+      .then(dbModel => dbModel.remove())
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+
 
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./style.css";
 
@@ -19,7 +20,7 @@ function Footer() {
                 <div className="col-3">
                     <p className="headLink">Admin Links <br></br></p>
                     
-                    <a className="linkText" href="#" to="/">Login</a>
+                    <Link className="linkText" to="/login">Login</Link>
 
                 </div>
             </div>

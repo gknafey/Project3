@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 import "../components/JobManagementInfo/style.css";
+import { Redirect } from "react-router-dom";
 
 class JobManagement extends Component {
     state = {
@@ -20,9 +21,52 @@ class JobManagement extends Component {
         createdOn: ""
     };
 
+    empty = (data) => {
+        if(typeof(data) == 'number' || typeof(data) == 'boolean')
+        { 
+          return false; 
+        }
+        if(typeof(data) == 'undefined' || data === null)
+        {
+          return true; 
+        }
+        if(typeof(data.length) != 'undefined')
+        {
+          return data.length == 0;
+        }
+        var count = 0;
+        for(var i in data)
+        {
+          if(data.hasOwnProperty(i))
+          {
+            count ++;
+          }
+        }
+        return count == 0;
+    }
+
     componentDidMount() {
+        let name = localStorage.getItem('user');
+        console.log(name);
+        API.verifyUser(name)
+            .then(res => {
+                console.log(res.data)
+                if(this.empty(res.data) === true) {
+                    this.setState({ redirect: true })
+                } else if(res.data[0].email !== name) {
+                        
+
+                    this.setState({ redirect: true })
+                }
+
+            })
+
+            .catch(err => console.log(err));
+
         this.loadClients();
         this.loadCurrentClients();
+
+
     }
 
     loadClients = () => {
@@ -69,6 +113,7 @@ class JobManagement extends Component {
     render() {
         return (
             <Container fluid>
+                {this.state.redirect && <Redirect to="/" />}
                 <Row className="spaceRows">
                     <Col size="md-6" className="jobMangement-info">
                         <h1 className="position1">Incoming Jobs</h1>
@@ -82,9 +127,9 @@ class JobManagement extends Component {
                                     <span className="itemTitle">Job Details:</span>  {client.jobDetails} <br></br>
                                     <span className="itemTitle">Recieved Request:</span>  {client.createdOn} <br></br>
                                     <span>
-                                    <DeleteBtn onClick={() => this.deleteClient(client._id)} />
-                                    <ReferBtn />
-                                    <AcceptBtn onClick={()=> this.saveCurrentJob(client.firstName, client.lastName, client.email, client.phoneNumber, client.jobDetails, client.createdOn, client._id)} />
+                                        <DeleteBtn onClick={() => this.deleteClient(client._id)} />
+                                        <ReferBtn />
+                                        <AcceptBtn onClick={() => this.saveCurrentJob(client.firstName, client.lastName, client.email, client.phoneNumber, client.jobDetails, client.createdOn, client._id)} />
                                     </span>
                                 </ListItem>
                             ))}
@@ -102,9 +147,9 @@ class JobManagement extends Component {
                                     <span className="itemTitle">Job Details:</span>  {currentJobs.jobDetails} <br></br>
                                     <span className="itemTitle">Recieved Request:</span>  {currentJobs.createdOn} <br></br>
                                     <span>
-                                    <DeleteBtn onClick={() => this.deleteCurrentJob(currentJobs._id)} />
-                                    <ReferBtn />
-                                    
+                                        <DeleteBtn onClick={() => this.deleteCurrentJob(currentJobs._id)} />
+                                        <ReferBtn />
+
                                     </span>
                                 </ListItem>
                             ))}

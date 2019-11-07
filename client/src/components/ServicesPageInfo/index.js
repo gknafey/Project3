@@ -19,9 +19,9 @@ function ServicesPageInfo() {
                 <ul>
                     <li className="contact-text-size">Plaster Restorations</li>
                     <li className="contact-text-size">Ornamental Plaster</li>
-                    <li className="contact-text-size">Vensian Plaster</li>
-                    <li className="contact-text-size">Vensian Plaster</li>
-                    <li className="contact-text-size">Vensian Plaster</li>
+                    <li className="contact-text-size">Venetian Plaster</li>
+                    <li className="contact-text-size">Venetian Plaster</li>
+                    <li className="contact-text-size">Venetian Plaster</li>
 
                 </ul>
 

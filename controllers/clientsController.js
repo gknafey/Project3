@@ -2,7 +2,6 @@ const db = require("../models");
 const bcrypt = require("bcrypt");
 
 
-// Defining methods for the booksController
 module.exports = {
   findAll: function (req, res) {
     db.Client
@@ -38,7 +37,7 @@ module.exports = {
   },
   createUser: function (req, res) {
     bcrypt.hash(req.body.password, 10, function (err, hash) {
-      //store hash in your password DB
+      
       console.log(req.body.password)
       req.body.password = hash;
       console.log(hash);

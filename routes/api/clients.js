@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const clientsController = require("../../controllers/clientsController");
 
-// Matches with "/api/clients"
+
 router.route("/")
   .get(clientsController.findAll)
   .post(clientsController.create)
@@ -14,7 +14,7 @@ router.route("/currentJobs/:id")
   .delete(clientsController.removeCurrentJob);
 
 
-// Matches with "/api/clients/:id"
+
 router
   .route("/:id")
   .get(clientsController.findById)

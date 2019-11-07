@@ -57,7 +57,7 @@ class JobManagement extends Component {
                         
 
                     this.setState({ redirect: true })
-                }
+                } 
 
             })
 

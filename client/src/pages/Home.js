@@ -6,7 +6,7 @@ import AboutUsInfo from "../components/AboutUs";
 import AboutImage from "../components/AboutImage";
 import RequestAQuote from "../components/RequestAQuote";
 import API from "../utils/API";
-import { Redirect } from "react-router-dom";
+
 
 
 

@@ -32,22 +32,22 @@ function Slides() {
         <div className="each-slide">
           <div>
             <span>
-              <img className=" firstslide" src={slideImages[0]} alt="Porfolio Image Not Found"></img>
-              <img className="fourthslide" src={slideImages[4]} alt="Porfolio Image Not Found"></img>
+              <img className=" firstslide" src={slideImages[0]} alt="Porfolio Not Found"></img>
+              <img className="fourthslide" src={slideImages[4]} alt="Porfolio Not Found"></img>
             </span>
           </div>
         </div>
         <div className="each-slide">
           <div>
             <span>
-              <img className="slide" src={slideImages[1]} alt="Porfolio Image Not Found"></img>
-              <img className="slide" src={slideImages[3]} alt="Porfolio Image Not Found"></img>
+              <img className="slide" src={slideImages[1]} alt="Porfolio Not Found"></img>
+              <img className="slide" src={slideImages[3]} alt="Porfolio Not Found"></img>
             </span>
           </div>
         </div>
         <div className="each-slide">
           <div>
-            <span><img className="slides" src={slideImages[2]}></img></span>
+            <span><img className="slides" src={slideImages[2]} alt="Porfolio Not Found"></img></span>
           </div>
         </div>
       </Slide>

@@ -13,7 +13,7 @@ function AboutUsInfo() {
             <p className="card-text">Our Company is committed to offering the best quality work possible at the right price.</p>
             </div>
 
-            <Link to="/AboutUs"> <a><button type="button" className="btn btn-lg customBtn aboutButton">Learn More</button></a> </Link>
+            <Link to="/AboutUs"> <button type="button" className="btn btn-lg customBtn aboutButton">Learn More</button> </Link>
         </div>
 
   );

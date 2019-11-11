@@ -7,10 +7,6 @@ import AboutImage from "../components/AboutImage";
 import RequestAQuote from "../components/RequestAQuote";
 import API from "../utils/API";
 
-
-
-
-
 class Homepage extends Component {
   state = {
     
@@ -20,14 +16,14 @@ class Homepage extends Component {
 
   componentDidMount() {
     let name = localStorage.getItem('user');
-    console.log(name);
+    
     API.verifyUser(name)
         .then(res => {
-            console.log(res.data)
+            
             if(res.data[0].email === name) {
-                console.log(true);
+                
               document.getElementById("hidden").style.display = "block";
-              console.log(res.data.email, "hello15")
+              
             }
 
         })

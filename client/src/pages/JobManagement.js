@@ -3,7 +3,6 @@ import DeleteBtn from "../components/DeleteBtn";
 import AcceptBtn from "../components/AcceptBtn";
 import ReferBtn from "../components/ReferBtn";
 import API from "../utils/API";
-import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 import "../components/JobManagementInfo/style.css";
@@ -32,7 +31,7 @@ class JobManagement extends Component {
         }
         if(typeof(data.length) != 'undefined')
         {
-          return data.length == 0;
+          return data.length === 0;
         }
         var count = 0;
         for(var i in data)
@@ -42,7 +41,7 @@ class JobManagement extends Component {
             count ++;
           }
         }
-        return count == 0;
+        return count === 0;
     }
 
     componentDidMount() {

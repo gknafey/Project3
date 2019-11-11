@@ -8,35 +8,35 @@ function Nav() {
     <nav className="navbar">
 
       <a className="navbar-brand " href="/">
-        <Link to="/"> <img className="logo" src={Logo}></img> </Link>
+        <Link to="/"> <img className="logo" alt="Logo Here" src={Logo}></img> </Link>
       </a>
       <ul className="nav justify-content-end">
         <li className="nav-item">
-          <Link to="/"> <a className="nav-item test" href="#">Home</a> </Link>
+          <Link to="/" className="nav-item test">Home </Link>
         </li>
         <li className="nav-item">
           <p className="nav-item" style={{ "color": "#e5cdaa" }}>&nbsp;|&nbsp;</p>
         </li>
         <li className="nav-item">
-          <Link to="/AboutUs"> <a className="nav-item test" href="#">About Us</a> </Link>
+          <Link to="/AboutUs" className="nav-item test">About Us </Link>
         </li>
         <li className="nav-item">
           <p className="nav-item" style={{ "color": "#e5cdaa" }} >&nbsp;|&nbsp;</p>
         </li>
         <li className="nav-item">
-          <Link to="/Portfolio"> <a className="nav-item test" href="#">Portfolio</a> </Link>
+          <Link to="/Portfolio" className="nav-item test">Portfolio </Link>
         </li>
         <li className="nav-item">
           <p className="nav-item" style={{ "color": "#e5cdaa" }}>&nbsp;|&nbsp;</p>
         </li>
         <li className="nav-item">
-          <Link to="/Services"> <a className="nav-item test" href="#">Services</a> </Link>
+          <Link to="/Services" className="nav-item test">Services </Link>
         </li>
         <li className="nav-item">
           <p className="nav-item" style={{ "color": "#e5cdaa" }}>&nbsp;|&nbsp;</p>
         </li>
         <li className="nav-item">
-          <Link to="/ContactUs"> <a className="nav-item test" href="#">Contact Us</a> </Link>
+          <Link to="/ContactUs" className="nav-item test">Contact Us </Link>
         </li>
       </ul>
     </nav>

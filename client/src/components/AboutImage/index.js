@@ -7,7 +7,7 @@ function AboutImage() {
 
         
 
-            <img className="img fluid aboutImg" src={Image} alt="Porfolio Image Not Found"></img>
+            <img className="img fluid aboutImg" src={Image} alt="Porfolio Not Found"></img>
            
         
 

@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import Logo from "../../images/final.png"
 import "./style.css";
 import API from "../../utils/API";
-import { basename } from "path";
+
 
 const MyTextInput = ({ label, ...props }) => {
     const [field, meta] = useField(props);
@@ -124,7 +124,7 @@ const FormWrap = () => {
 
                 >
                     <Form>
-                        <img className="logo-location2" src={Logo}></img>
+                        <img className="logo-location2" src={Logo} alt="Logo Here"></img>
                         <MyTextInput
                             label="First Name:"
                             name="firstName"

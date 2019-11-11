@@ -9,9 +9,9 @@ function AboutPageImages() {
 
             <span className="shape">
 
-            <img className="img fluid aboutImg3" src={WorkingImg} alt="Porfolio Image Not Found"></img>
+            <img className="img fluid aboutImg3" src={WorkingImg} alt="Porfolio Not Found"></img>
 
-            <img className="img fluid aboutImg2" src={OurTeam} alt="Porfolio Image Not Found"></img>
+            <img className="img fluid aboutImg2" src={OurTeam} alt="Porfolio Not Found"></img>
             
             </span>
            

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Col, Row, Container } from "../components/Grid";
+import { Container } from "../components/Grid";
 import Logo from "../images/final.png"
 import API from '../utils/API';
 // import LoginWrap from "../components/Login";
@@ -44,7 +44,7 @@ class LoginInfo extends Component {
       <Container fluid>
         <div className="content2">
           {this.state.redirect && <Redirect to="/" />}
-          <img className="logo-location3" src={Logo}></img>
+          <img className="logo-location3" alt="Logo Here" src={Logo}></img>
 
           <div className="floatBot">
             <h1>Login</h1>

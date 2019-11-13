@@ -46,10 +46,10 @@ class JobManagement extends Component {
 
     componentDidMount() {
         let name = localStorage.getItem('user');
-        console.log(name);
+        
         API.verifyUser(name)
             .then(res => {
-                console.log(res.data)
+                
                 if(this.empty(res.data) === true) {
                     this.setState({ redirect: true })
                 } else if(res.data[0].email !== name) {

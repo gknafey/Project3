@@ -30,7 +30,6 @@ export default {
     return axios.post("/api/clients/SignUp", userData);
   },
   logInUser: function(userData) {
-    console.log(userData);
     return axios.post("/api/clients/UserLogin", userData);
   },
   verifyUser: function(name) {

@@ -7,9 +7,8 @@ function Nav() {
   return (
     <nav className="navbar">
 
-      
-        <Link to="/" className="navbar-brand"> <img className="logo" alt="Logo Here" src={Logo}></img> </Link>
-      
+      <Link to="/" className="navbar-brand"> <img className="logo" alt="Logo Here" src={Logo}></img> </Link>
+
       <ul className="nav justify-content-end">
         <li className="nav-item">
           <Link to="/" className="nav-item test">Home </Link>

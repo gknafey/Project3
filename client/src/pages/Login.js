@@ -18,8 +18,7 @@ class LoginInfo extends Component {
   }
 
   compare = () => {
-    console.log(this.state.username);
-    console.log(this.state.password);
+    
     API.logInUser({
       email: this.state.username,
       password: this.state.password
@@ -29,7 +28,7 @@ class LoginInfo extends Component {
       localStorage.setItem('user', res.data.email );
 
       this.setState({ redirect: true })
-      console.log(res);
+      
     })
   }
 

@@ -38,9 +38,9 @@ module.exports = {
   createUser: function (req, res) {
     bcrypt.hash(req.body.password, 10, function (err, hash) {
       
-      console.log(req.body.password)
+      
       req.body.password = hash;
-      console.log(hash);
+      
 
       db.User
         .create(req.body)
@@ -49,11 +49,11 @@ module.exports = {
     });
   },
   signIn: function (req, res) {
-    console.log('here3', req.body.email);
+    
     db.User
       .find({ email: req.body.email })
       .then(dbModel => {
-        console.log("Here4", dbModel)
+        
         const isPassCorrect = bcrypt.compareSync(req.body.password, dbModel[0].password);
         const userObj = {
           isTrue: isPassCorrect,
@@ -65,7 +65,7 @@ module.exports = {
       .catch(err => res.status(422).json(err));
   },
   findName: function (req, res) {
-    console.log(req.params.name)
+    
     db.User
       .find({email: req.params.name})
       .then(dbModel => res.json(dbModel))

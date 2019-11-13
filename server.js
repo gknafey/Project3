@@ -16,7 +16,11 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactclientlist");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactclientlist", {
+  
+useUnifiedTopology: true,
+useNewUrlParser: true
+});
 
 
 app.listen(PORT, function() {

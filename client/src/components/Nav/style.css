@@ -19,6 +19,25 @@
     
 }
 
+@media only screen and (max-width: 600px) {
+    .center1 {
+        margin-left: 40px;
+    }
+    .center2 {
+        margin-right: 50px;
+    }
+    .center0 {
+        margin-right: 10px;
+    }
+    .disappear1 {
+        display: none;
+    }
+    .navOrient1 {
+        width: 85%;
+    }
+   
+  }
+
 
 
 

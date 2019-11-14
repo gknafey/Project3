@@ -4,9 +4,9 @@ import "./style.css";
 function QuickContact() {
     return (
         <div className="quickContact">
-            <span className="shiftLeft">
-                <p>&nbsp; Phone: 908-581-2151 &nbsp;|&nbsp; Email: <a className="email" href="mailto:jnafey@plasterrestorationsllc.com">jnafey@plasterrestorationsllc.com </a>&nbsp;</p>
-            </span>
+            <div>
+                <p>&nbsp; <span className="phoneOrient">Phone: 908-581-2151 &nbsp;<span>|</span>&nbsp; Email:</span> <a className="email" href="mailto:jnafey@plasterrestorationsllc.com">jnafey@plasterrestorationsllc.com </a>&nbsp;</p>
+            </div>
         </div>
     )
 }

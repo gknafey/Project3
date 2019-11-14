@@ -29,3 +29,17 @@
 .shift-right {
     margin-left: 50px;
 }
+
+@media (max-width: 600px) {
+    .img-orientation {
+        width: 90%;
+    }
+
+    .contact-text-size {
+        font-size: 25px;
+    }
+
+    .titleOrient {
+        font-size: 35px;
+    }
+}

@@ -14,3 +14,20 @@
 .email:hover {
     color: #e5cdaa;
 }
+
+@media (max-width: 600px) {
+    
+    .quickContact {
+        width: 100%;
+        margin-bottom:38px;
+    }
+    .email {
+        background-color: #00476B;
+        padding: 0px 98px 10px 100px;
+        
+    }
+    .phoneOrient {
+        padding: 10px 80px 0 0;
+    }
+   
+  }

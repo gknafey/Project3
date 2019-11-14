@@ -8,7 +8,7 @@ function ContactInfo() {
 
         <div className="media contact-info">
             <div className="media-body contact-text">
-                <h1 className="mt-0 mb-1 shift-right">Contact Information</h1>
+                <h1 className="mt-0 mb-1 shift-right titleOrient">Contact Information</h1>
                 <img src={Owner} className="ml-3 img-orientation" alt="..."></img>
                 <br></br>
                 <ul>

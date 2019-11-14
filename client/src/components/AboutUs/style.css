@@ -27,3 +27,31 @@
     border: solid 3px #e5cdaa;
     border-radius: 3px;
 }
+
+@media (max-width: 600px) {
+    .card-text {
+        display:none;
+    }
+    .card-title {
+        display: none;
+    }
+
+    .aboutInfo {
+        width:49%;
+        height: 50%;
+        
+    }
+    .aboutButton {
+        position: relative;
+        top: -10px;
+        left: -80px;
+        width:60%;
+        border: solid 3px #e5cdaa;
+        border-radius: 3px;
+    }
+
+    .card-header-resize {
+        height:65%;
+        padding-top:15%;
+    }
+}

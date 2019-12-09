@@ -25,3 +25,32 @@
     border-color: #e5cdaa;
 }
 
+@media (max-width: 414px) {
+    .slides {
+        height: 300px;
+        width:100%;
+        
+    }
+    
+    .slide {
+        height: 300px;
+        width: 50%;
+    }
+    
+    .firstslide {
+        height: 300px;
+        width: 70%;
+    }
+    
+    .fourthslide {
+        height: 300px;
+        width: 30%;
+    }
+    
+    .slide-container {
+        border-bottom: solid 190px;
+        border-top: solid 10px;
+        border-color: #e5cdaa;
+        height: 315px;
+    }
+}

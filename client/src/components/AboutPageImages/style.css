@@ -26,3 +26,18 @@
     
     margin: -40px 0 20px 140px;
 }
+
+@media (max-width: 414px) {
+    .aboutImg3 {
+
+        display: none;
+    } 
+
+    .aboutImg2 {
+        width: 70%;
+        max-height: 600px;
+        border: solid 3px #e5cdaa;
+        border-radius: 3px;
+        margin: 20px 0 20px 40px;
+    }
+}

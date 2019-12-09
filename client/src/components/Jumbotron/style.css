@@ -1,9 +1,23 @@
 .jumbotron {
     background-color: #fff;
+    height: 600px;
 }
 
 .jumboBorder {
     border-bottom: solid 10px;
     border-top: solid 10px;
     border-color: #e5cdaa;
+    height:600px;
+}
+
+@media (max-width: 414px) {
+    .jumbotron {
+        background-color: #fff;
+    }
+    .jumboBorder {
+        border-bottom: solid 10px;
+        border-top: solid 10px;
+        border-color: #e5cdaa;
+        height: 350px;
+    }
 }

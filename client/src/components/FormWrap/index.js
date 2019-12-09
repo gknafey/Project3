@@ -25,7 +25,7 @@ const MyTextInput = ({ label, ...props }) => {
 const MyPhoneInput = ({ label, ...props }) => {
 
 
-    
+
 
     const [field, meta] = useField(props);
     return (
@@ -96,26 +96,31 @@ const FormWrap = () => {
                         })
                     })}
 
-                    
+
 
                     onSubmit={(values, { setSubmitting }) => {
                         setTimeout(() => {
-                            values.createdOn= moment().format('MMMM Do YYYY, h:mm:ss a');
-                            
-                                API.saveClient({
-                                    firstName: values.firstName,
-                                    lastName: values.lastName,
-                                    email: values.email,
-                                    phoneNumber: values.phoneNumber,
-                                    jobDetails: values.jobDetails,
-                                    createdOn: values.createdOn,
-                                })
-                                    .then(res => console.log(res))
-                                    .catch(err => console.log(err));
-                            
-                            
+                            values.createdOn = moment().format('MMMM Do YYYY, h:mm:ss a');
 
-                            alert(JSON.stringify(values, null, 2));
+                            API.saveClient({
+                                firstName: values.firstName,
+                                lastName: values.lastName,
+                                email: values.email,
+                                phoneNumber: values.phoneNumber,
+                                jobDetails: values.jobDetails,
+                                createdOn: values.createdOn,
+                            })
+                                .then(res => console.log(res))
+                                .catch(err => console.log(err));
+
+
+
+                            // document.getElementsByClassName("logo-location2").appendChild(
+                            //     `<div className='response'>
+                            //         <p>Thank you,` + values.firstName + values.lastName + `,<br></br>
+                            //             your request has been submitted!</p>
+                            //     </div>
+                            // `);
                             setSubmitting(false);
                         }, 400);
                     }}
@@ -124,7 +129,8 @@ const FormWrap = () => {
 
                 >
                     <Form>
-                        <img className="logo-location2" src={Logo} alt="Logo Here"></img>
+                        <img className="logo-location2" id="curved-logo" src={Logo} alt="Logo Here"></img>
+
                         <MyTextInput
                             label="First Name:"
                             name="firstName"

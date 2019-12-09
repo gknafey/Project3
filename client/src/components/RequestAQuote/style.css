@@ -30,23 +30,25 @@
     border-radius: 3px;
 }
 
-@media (max-width: 600px) {
-    .requestA {
-        position: relative;
-        width: 49%;
-        height: 50%;
-        background-color: #00476b;
-        border: solid 3px #e5cdaa;
-        float: right;
-        top:-203px;
-       
+@media (max-width: 1501px) {
+    .card-text{
+        font-size:15px;
     }
+
+}
+
+@media (max-width: 1456px) {
     .FormButton {
         position: relative;
-        top: -27px;
+        top: -20px;
         left: -80px;
         border: solid 3px #e5cdaa;
         border-radius: 3px;
         width: 60%;
+    }
+}
+@media (max-width: 1118px) {
+    .requestA {
+        display: none;
     }
 }

@@ -57,11 +57,11 @@ class Homepage extends Component {
       <div>
         <Slides />
         <LinkBtn />
-        <Jumbotron>
+        <Jumbotron >
           <span>
-            <AboutUsInfo />
-            <AboutImage />
-            <RequestAQuote />
+            <AboutUsInfo  />
+            <AboutImage  />
+            <RequestAQuote  />
           </span>
 
         </Jumbotron>

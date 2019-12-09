@@ -31,3 +31,69 @@
     }
    
   }
+
+@media (max-width: 414px) {
+    .quickContact {
+    text-align: left;
+    color: white;
+    background-color: #00476B;
+    height: 60px;
+    font-size: 10px;
+    padding: 10px 40px 0 0;
+    }
+    .phoneOrient {
+        padding: 10px 80px 0 0;
+        font-size: 20px;
+    }
+
+    .email {
+        background-color: #00476B;
+        padding: 0px 17px 10px 100px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .quickContact {
+        text-align: left;
+        color: white;
+        background-color: #00476B;
+        height: 60px;
+        font-size: 10px;
+        padding: 10px 40px 0 0;
+        }
+        .phoneOrient {
+            padding: 10px 80px 0 0;
+            font-size: 15px;
+        }
+    
+        .email {
+            background-color: #00476B;
+            padding: 10px 52px 13px 100px;
+            font-size: 15px;
+        }
+}
+
+@media (max-width: 320px) {
+    .quickContact {
+        text-align: left;
+        color: white;
+        background-color: #00476B;
+        height: 60px;
+        font-size: 10px;
+        padding: 10px 40px 0 0;
+        }
+        .phoneOrient {
+            padding: 10px 80px 0 0;
+            font-size: 13px;
+        }
+    
+        .email {
+            background-color: #00476B;
+            padding: 10px 27px 13px 100px;
+            font-size: 13px;
+        }
+}
+
+
+

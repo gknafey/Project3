@@ -28,19 +28,7 @@
     border-radius: 3px;
 }
 
-@media (max-width: 600px) {
-    .card-text {
-        display:none;
-    }
-    .card-title {
-        display: none;
-    }
-
-    .aboutInfo {
-        width:49%;
-        height: 50%;
-        
-    }
+@media (max-width: 1456px) {
     .aboutButton {
         position: relative;
         top: -10px;
@@ -50,8 +38,11 @@
         border-radius: 3px;
     }
 
-    .card-header-resize {
-        height:65%;
-        padding-top:15%;
+   
+}
+
+@media (max-width: 1118px) {
+    .aboutInfo {
+        display: none;
     }
 }

@@ -38,6 +38,26 @@
    
   }
 
+  @media(max-width: 414px) {
+    .navbar {
+        font-size: 20px;
+    }
+    .logo {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar {
+        font-size: 12px;
+    }
+    .logo {
+        margin-left: 0%;
+        align-content: left;
+        width: 315px;
+    }
+}
+
 
 
 

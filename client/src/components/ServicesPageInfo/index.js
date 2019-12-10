@@ -10,26 +10,25 @@ function ServicesPageInfo() {
                 <h1 className="mt-0 mb-1 shift">Services We Provide</h1>
                 <br></br>
                 <p className="font-resize">
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    Plaster Restorations is licensed and insured for residential and commercial construction.  We 
+                    perform plaster services in conjunction with both historical restoration and new construction 
+                    projects of any scale.  Our services are not limited to the following list so please feel free 
+                    to contact us with ANY questions.
                 </p>
-                <h2 className="margin-title">Plastering</h2>
+                <h2 className="margin-title">Services:</h2>
 
                 <ul>
-                    <li className="contact-text-size">Plaster Restorations</li>
-                    <li className="contact-text-size">Ornamental Plaster</li>
+                    <li className="contact-text-size">Veneer Plastering</li>
+                    <li className="contact-text-size">Skim-Coat Plastering</li>
+                    <li className="contact-text-size">3 Coat Plaster</li>
                     <li className="contact-text-size">Venetian Plaster</li>
-                    <li className="contact-text-size">Venetian Plaster</li>
-                    <li className="contact-text-size">Venetian Plaster</li>
-
-                </ul>
-
-                <h3 className="margin-title">Referals</h3>
-                <ul>
-                    <li className="contact-text-size">Stucco</li>
-                    <li className="contact-text-size">Drywall</li>
-                    <li className="contact-text-size">Others</li>
+                    <li className="contact-text-size">Ornamental &amp; Decorative Plaster Moldings</li>
+                    <li className="contact-text-size">Sandfloat Textures</li>
+                    <li className="contact-text-size">Custom Textures</li>
+                    <li className="contact-text-size">New Construction Plastering</li>
+                    <li className="contact-text-size">Historical Restorations</li>
+                    <li className="contact-text-size">Decorative Painting</li>
+                    <li className="contact-text-size">Plaster Consulting</li>
 
                 </ul>
 

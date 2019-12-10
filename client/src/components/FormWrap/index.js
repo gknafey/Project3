@@ -159,7 +159,7 @@ const FormWrap = () => {
 
 
                         <MyTextArea
-                            label="Job Details"
+                            label="Job Details (Please Include Project Location / Address)"
                             name="jobDetails"
                             type="text"
                             placeholder="Job Details Here"

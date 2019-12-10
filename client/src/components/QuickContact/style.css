@@ -11,6 +11,14 @@
     color: white;
 }
 
+.phoneWork {
+    color: white;
+}
+
+.phoneWork:hover {
+    color: #e5cdaa;
+}
+
 .email:hover {
     color: #e5cdaa;
 }

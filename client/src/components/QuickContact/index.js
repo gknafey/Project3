@@ -5,7 +5,7 @@ function QuickContact() {
     return (
         <div className="quickContact">
             <div>
-                <p>&nbsp; <span className="phoneOrient">Phone: 908-581-2151 &nbsp;<span>|</span>&nbsp; Email:</span> <a className="email" href="mailto:jnafey@plasterrestorationsllc.com">jnafey@plasterrestorationsllc.com </a>&nbsp;</p>
+                <p>&nbsp; <span className="phoneOrient"> <a className="phoneWork" href="tel:908-581-2151">Phone: 908-581-2151</a> &nbsp;<span>|</span>&nbsp; Email:</span> <a className="email" href="mailto:plaster.restorations@gmail.com">plaster.restorations@gmail.com </a>&nbsp;</p>
             </div>
         </div>
     )

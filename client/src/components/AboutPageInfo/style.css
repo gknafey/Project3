@@ -7,9 +7,9 @@
 }
 
 .content {
-    margin: 20px auto 20px auto;
+    /* margin: 20px auto 20px auto; */
     padding: 20px;
-    width: 95%;
+    width: 70%;
     height: 100%;
     color: #fff;
     background-color: #00476b; 
@@ -26,8 +26,12 @@
     
 }
 
+.AboutTitleSize {
+    font-size: 50px;
+}
+
 .font-resize {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 @media (max-width: 414px) {

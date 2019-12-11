@@ -1,0 +1,37 @@
+.theseImgs {
+    width: 400px;
+    height: 600px;
+    border: solid 3px #e5cdaa;
+    border-radius: 1%;
+    margin: 15px;
+}
+
+.theseImg {
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+    border: solid 3px #e5cdaa;
+    border-radius: 1%;
+}
+
+.beforeAfter {
+    font-size: 40px;
+    padding-left:20px;
+    padding-right: 250px;
+}
+.beforeAfter1 {
+    font-size: 40px;
+    padding-left:20px;
+    padding-right: 50px;
+}
+
+.beforeAfter2 {
+    font-size: 40px;
+    padding-left:20px;
+    padding-right: 270px;
+}
+.beforeAfter3 {
+    font-size: 40px;
+    padding-left:20px;
+    
+}

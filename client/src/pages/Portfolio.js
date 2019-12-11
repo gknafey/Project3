@@ -1,16 +1,22 @@
 import React, { Component } from "react";
 import { Container } from "../components/Grid";
+import Portfolio1 from "../components/Portfolio1";
+
 
 
 class Portfolio extends Component {
   state = {
     
   };
+
+  
   
   render() {
+    
     return (
+      
       <Container fluid>
-        <h1>Portfolio here</h1>
+        <Portfolio1 />
       </Container>
     );
   }

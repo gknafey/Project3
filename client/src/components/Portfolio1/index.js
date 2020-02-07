@@ -12,7 +12,7 @@ function Portfolio1() {
     return (
 
         
-            <div className="media content">
+            <div className="media content portfolio-size">
             <div className="media-body">
             <span><p><span className="beforeAfter">Before</span> <span className="beforeAfter1">After New Construction</span> <span className="beforeAfter2">Before</span> <span className="beforeAfter3">After Ornamental</span></p></span>  
             <img className="theseImgs" src={Before1} alt="" />

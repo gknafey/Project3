@@ -1,11 +1,20 @@
 .aboutImg {
 
     width: 32.75%;
-    max-height: 600px;
+    max-height: 500px;
     margin-left: 0px;
     border: solid 3px #e5cdaa;
     border-radius: 3px;
     
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 @media(max-width: 1118px) {

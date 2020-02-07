@@ -1,5 +1,5 @@
 import React from "react";
-import Owner from "../../images/Owner.jpg"
+import Logo from "../../images/final.png"
 import "./style.css";
 
 function ContactInfo() {
@@ -9,7 +9,7 @@ function ContactInfo() {
         <div className="media contact-info">
             <div className="media-body contact-text">
                 <h1 className="mt-0 mb-1 shift-right titleOrient">Contact Information</h1>
-                <img src={Owner} className="ml-3 img-orientation" alt="..."></img>
+                <img src={Logo} className=" img-logo-contact" alt="..."></img>
                 <br></br>
                 <ul>
                     <li className="contact-text-size">Owner: Joel W. Nafey</li>

@@ -64,7 +64,7 @@ const FormWrap = () => {
 
 
     return (
-        <div className="content">
+        <div className="content quoteRequestSize">
             <>
                 <h1>Quote Request Form</h1>
                 <Formik

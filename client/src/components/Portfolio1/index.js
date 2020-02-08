@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import ReactCompareImage from 'react-compare-image';
 import Before1 from "../../images/4BEFORE.jpg"
 import After1 from "../../images/4AFTER.jpg"
 import Before2 from "../../images/7BEFORE.jpg"
@@ -12,16 +13,20 @@ function Portfolio1() {
     return (
 
         
-            <div className="media content portfolio-size">
-            <div className="media-body">
-            <span><p><span className="beforeAfter">Before</span> <span className="beforeAfter1">After New Construction</span> <span className="beforeAfter2">Before</span> <span className="beforeAfter3">After Ornamental</span></p></span>  
-            <img className="theseImgs" src={Before1} alt="" />
-            <img className="theseImgs" src={After1} alt="" />
+            <div className="media portfolio-size">
+            <div className="comparison-1">
+           
+            <ReactCompareImage className="theseImgs" leftImage={Before1} rightImage={After1} />
             
-            <img className="theseImg" src={Before2} alt="" />
-            <img className="theseImg" src={After2} alt="" />
+            </div>
+
+            <div className="comparison-2">
+            <ReactCompareImage className="theseImg" leftImage={Before2} rightImage={After2} />
+            
             </div>
         </div>
+
+        
 
 
 

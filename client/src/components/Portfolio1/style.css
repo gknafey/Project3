@@ -1,42 +1,26 @@
 .portfolio-size {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.theseImgs {
-    width: 400px;
-    height: 600px;
-    border: solid 3px #e5cdaa;
-    border-radius: 1%;
-    margin: 15px;
-}
-
-.theseImg {
-    width: 400px;
-    height: 300px;
-    margin: 15px;
-    border: solid 3px #e5cdaa;
-    border-radius: 1%;
-}
-
-.beforeAfter {
-    font-size: 40px;
-    padding-left:20px;
-    padding-right: 250px;
-}
-.beforeAfter1 {
-    font-size: 40px;
-    padding-left:20px;
-    padding-right: 50px;
-}
-
-.beforeAfter2 {
-    font-size: 40px;
-    padding-left:20px;
-    padding-right: 270px;
-}
-.beforeAfter3 {
-    font-size: 40px;
-    padding-left:20px;
+    margin: 20px auto 20px auto;
+    width: 95%;
+    height: 100%;
+    color: #fff;
+    background-color: #fff; 
+    border: solid 10px #00476b;
+    border-radius: 20px;
     
 }
+
+.comparison-1 {
+    margin: 0.5%;
+    width: 33%;
+    background-color: #00476b;
+    border: solid 5px #00476b;
+    border-radius:10px;
+}
+.comparison-2 {
+    margin: 0.5%;
+    width: 66%;
+    background-color: #00476b;
+    border: solid 5px #00476b;
+    border-radius:10px;
+}
+

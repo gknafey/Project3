@@ -1,5 +1,5 @@
 .portfolio-size {
-    margin: 20px auto 20px auto;
+    margin: 50px auto 50px auto;
     width: 95%;
     height: 100%;
     color: #fff;
@@ -9,18 +9,37 @@
     
 }
 
+.name-style {
+    font-size: 50px;
+    text-decoration: underline;
+    
+}
+
+.comparison-button {
+    margin-top: 2%;
+    min-width: 180px;
+    border: solid 5px #e5cdaa;
+    border-radius: 3px;
+}
+
+.image-style-portfolio {
+   border: solid 10px #e5cdaa;
+   border-radius: 10px;
+}
+
 .comparison-1 {
     margin: 0.5%;
     width: 33%;
     background-color: #00476b;
-    border: solid 5px #00476b;
+    border: solid 25px #00476b;
     border-radius:10px;
+    
 }
 .comparison-2 {
     margin: 0.5%;
     width: 66%;
     background-color: #00476b;
-    border: solid 5px #00476b;
+    border: solid 25px #00476b;
     border-radius:10px;
 }
 

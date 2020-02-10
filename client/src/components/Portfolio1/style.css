@@ -33,6 +33,7 @@
     background-color: #00476b;
     border: solid 25px #00476b;
     border-radius:10px;
+    display:block;
     
 }
 .comparison-2 {
@@ -41,5 +42,15 @@
     background-color: #00476b;
     border: solid 25px #00476b;
     border-radius:10px;
+    display:block;
+}
+
+.comparison-3 {
+    margin: 0.5%;
+    width: 60%;
+    background-color: #00476b;
+    border: solid 25px #00476b;
+    border-radius:10px;
+    display:block;
 }
 

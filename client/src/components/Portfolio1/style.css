@@ -1,12 +1,11 @@
 .portfolio-size {
     margin: 50px auto 50px auto;
     width: 95%;
-    height: 100%;
     color: #fff;
     background-color: #fff; 
     border: solid 10px #00476b;
     border-radius: 20px;
-    
+    /* display: table; */
 }
 
 .name-style {
@@ -27,30 +26,47 @@
    border-radius: 10px;
 }
 
+.row1 {
+    margin: 0.25%;
+    width:50%;
+    
+}
+
+.row2 {
+    margin: 0.25%;
+    width:50%;
+    
+}
+
 .comparison-1 {
     margin: 0.5%;
-    width: 33%;
+    margin-bottom: 30px;
+    min-width: 30%;
     background-color: #00476b;
     border: solid 25px #00476b;
     border-radius:10px;
-    display:block;
+    padding-bottom: 90px;
+    
     
 }
 .comparison-2 {
     margin: 0.5%;
-    width: 66%;
+    min-width: 65%;
     background-color: #00476b;
     border: solid 25px #00476b;
     border-radius:10px;
-    display:block;
+    padding-bottom: 90px;
 }
+
 
 .comparison-3 {
     margin: 0.5%;
-    width: 60%;
+    min-width: 50%;
     background-color: #00476b;
     border: solid 25px #00476b;
     border-radius:10px;
-    display:block;
+    padding-bottom: 90px;
+    margin-bottom: 25px;
+    
 }
 

@@ -27,12 +27,20 @@
 }
 
 .logo-location2 {
-    max-width: 40%;
+    max-width: 35%;
     background-color: #fff;
     float: right;
     margin-right: 10%;
     border: solid 10px #e5cdaa;
     border-radius: 75px;
+}
+
+.submitted-form-response {
+    font-size: 30px;
+    float:right;
+    margin-right: 20px;
+    font-weight: bold;
+    visibility: hidden;
 }
 
 #phonePrefix {

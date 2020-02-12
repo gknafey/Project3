@@ -56,7 +56,14 @@ const MyTextArea = ({ label, ...props }) => {
     );
 };
 
+// const Visible = () => {
+//     document.getElementsByClassName("submitted-form-response");
+//     console.log(document.getElementsByClassName("submitted-form-response"));
+   
+// }
 
+
+// submitted-form-response
 
 
 
@@ -99,9 +106,11 @@ const FormWrap = () => {
 
 
                     onSubmit={(values, { setSubmitting }) => {
+                        
                         setTimeout(() => {
                             values.createdOn = moment().format('MMMM Do YYYY, h:mm:ss a');
-
+                            document.getElementsByClassName("submitted-form-response")[0].style.visibility = "visible";
+                            // console.log(document.getElementsByClassName("submitted-form-response")[0].style);
                             API.saveClient({
                                 firstName: values.firstName,
                                 lastName: values.lastName,
@@ -112,24 +121,18 @@ const FormWrap = () => {
                             })
                                 .then(res => console.log(res))
                                 .catch(err => console.log(err));
+                                
+                                
 
-
-
-                            // document.getElementsByClassName("logo-location2").appendChild(
-                            //     `<div className='response'>
-                            //         <p>Thank you,` + values.firstName + values.lastName + `,<br></br>
-                            //             your request has been submitted!</p>
-                            //     </div>
-                            // `);
+                            
                             setSubmitting(false);
                         }, 400);
+                        
                     }}
-
-
-
                 >
                     <Form>
                         <img className="logo-location2" id="curved-logo" src={Logo} alt="Logo Here"></img>
+                        
 
                         <MyTextInput
                             label="First Name:"
@@ -164,13 +167,16 @@ const FormWrap = () => {
                             type="text"
                             placeholder="Job Details Here"
                         />
-
-                        <button className="btn btn-lg QuoteBtn" type="submit">Submit</button>
-
+                        <p className="submitted-form-response">Your Form has been submitted! We will be in contact with you shortly.</p>
+                        
+                        <button className="btn btn-lg QuoteBtn" type="submit" >Submit</button>
+                        
+                        
                     </Form>
                 </Formik>
 
             </>
+            
         </div>
     );
 };

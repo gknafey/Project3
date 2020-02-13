@@ -8,7 +8,7 @@ import { List, ListItem } from "../components/List";
 import "../components/JobManagementInfo/style.css";
 import { Redirect } from "react-router-dom";
 
-class JobManagement extends Component {
+class Archived extends Component {
     state = {
         clients: [],
         currentJobs: [],
@@ -163,4 +163,4 @@ class JobManagement extends Component {
 
 
 
-export default JobManagement;
+export default Archived;

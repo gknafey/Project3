@@ -16,6 +16,13 @@ function HiddenLink() {
             <Link to="/JobManagement" className="nav-item test color" href="#">Job Management </Link>
             </span>
             <span className="nav-item" style={{ "color": "#e5cdaa" }}>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+            <span className="shiftLeft">
+            <Link to="/Archived" className="nav-item test color" href="#">Archived </Link>
+            </span>
+
+            <span className="nav-item" style={{ "color": "#e5cdaa" }}>&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
             <span className="shiftLeft">
             <Link to="/" onClick={signOut} className="nav-item test color" href="#">Sign Out </Link>
             </span>

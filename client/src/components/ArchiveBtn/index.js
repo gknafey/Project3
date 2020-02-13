@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
  
-function DeleteBtn(props) {
+function ArchiveBtn(props) {
   return (
     <span className="delete-btn" {...props} role="button" tabIndex="0">
-      Delete
+      Archive
     </span>
   );
 }
 
-export default DeleteBtn;
+export default ArchiveBtn;

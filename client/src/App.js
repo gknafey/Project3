@@ -14,6 +14,7 @@ import QuickContact from "./components/QuickContact";
 import Footer from "./components/Footer";
 import JobManagement from "./pages/JobManagement";
 import HiddenLink from "./components/Hidden";
+import Archived from "./pages/Archived";
 
 
 
@@ -34,6 +35,7 @@ function App() {
           <Route exact path='/Login' component={LoginInfo} />
           <Route exact path='/SignUp' component={SignUpInfo} />
           <Route exact path='/JobManagement' component={JobManagement} />
+          <Route exact path='/Archived' component={Archived} />
           <Route component={NoMatch} />
         </Switch>
         <Footer />

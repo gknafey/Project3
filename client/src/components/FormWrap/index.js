@@ -122,7 +122,14 @@ const FormWrap = () => {
                                 .then(res => console.log(res))
                                 .catch(err => console.log(err));
                                 
-                                
+                                values.firstName = "";
+                                values.lastName = "";
+                                values.email = "";
+                                values.phoneNumber = "";
+                                values.jobDetails = "";
+                                values.createdOn = "";
+
+                
 
                             
                             setSubmitting(false);

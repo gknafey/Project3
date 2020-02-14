@@ -101,6 +101,19 @@ class JobManagement extends Component {
             .catch(err => console.log(err));
     }
 
+    archiveCurrentJob = (f, l, e, p, j, c, id) => {
+        API.archiveCurrentJob({
+            firstName: f,
+            lastName: l,
+            email: e,
+            phoneNumber: p,
+            jobDetails: j,
+            createdOn: c
+        })
+            .then(res => this.deleteCurrentJob(id), this.loadClients(), this.loadCurrentClients())
+            .catch(err => console.log(err));
+    }
+
     loadCurrentClients = () => {
         API.getCurrentJobs()
             .then(res =>
@@ -108,6 +121,7 @@ class JobManagement extends Component {
             )
             .catch(err => console.log(err));
     }
+    
 
     render() {
         return (
@@ -146,7 +160,7 @@ class JobManagement extends Component {
                                     <span className="itemTitle">Job Details:</span>  {currentJobs.jobDetails} <br></br>
                                     <span className="itemTitle">Recieved Request:</span>  {currentJobs.createdOn} <br></br>
                                     <span>
-                                        <ArchiveBtn onClick={() => this.deleteCurrentJob(currentJobs._id)} />
+                                        <ArchiveBtn onClick={() => this.archiveCurrentJob(currentJobs.firstName, currentJobs.lastName, currentJobs.email, currentJobs.phoneNumber, currentJobs.jobDetails, currentJobs.createdOn, currentJobs._id)} />
                                         <ReferBtn />
 
                                     </span>

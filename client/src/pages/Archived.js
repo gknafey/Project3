@@ -11,7 +11,7 @@ import { Redirect } from "react-router-dom";
 class Archived extends Component {
     state = {
         clients: [],
-        currentJobs: [],
+        completedJobs: [],
         firstName: "",
         lastName: "",
         email: "",
@@ -63,7 +63,7 @@ class Archived extends Component {
             .catch(err => console.log(err));
 
         this.loadClients();
-        this.loadCurrentClients();
+        this.loadCompletedClients();
 
 
     }
@@ -101,10 +101,10 @@ class Archived extends Component {
             .catch(err => console.log(err));
     }
 
-    loadCurrentClients = () => {
-        API.getCurrentJobs()
+    loadCompletedClients = () => {
+        API.getCompletedJobs()
             .then(res =>
-                this.setState({ currentJobs: res.data })
+                this.setState({ completedJobs: res.data })
             )
             .catch(err => console.log(err));
     }
@@ -115,7 +115,7 @@ class Archived extends Component {
                 {this.state.redirect && <Redirect to="/" />}
                 <Row className="spaceRows">
                     <Col size="md-6" className="jobMangement-info">
-                        <h1 className="position1">Incoming Jobs</h1>
+                        <h1 className="position1">Referred Archived Jobs</h1>
                         <List>
                             {this.state.clients.map(client => (
                                 <ListItem key={client._id}>
@@ -135,18 +135,18 @@ class Archived extends Component {
                         </List>
                     </Col>
                     <Col size="md-6" className="jobMangement-info">
-                        <h1 className="position1">Ongoing Jobs</h1>
+                        <h1 className="position1">Completed Archived Jobs</h1>
                         <List>
-                            {this.state.currentJobs.map(currentJobs => (
-                                <ListItem key={currentJobs._id}>
+                            {this.state.completedJobs.map(completedJobs => (
+                                <ListItem key={completedJobs._id}>
 
-                                    <span className="itemTitle">Name:</span> {currentJobs.firstName} {currentJobs.lastName} <br></br>
-                                    <span className="itemTitle">Email:</span>  {currentJobs.email} <br></br>
-                                    <span className="itemTitle">Phone Number:</span>  {currentJobs.phoneNumber} <br></br>
-                                    <span className="itemTitle">Job Details:</span>  {currentJobs.jobDetails} <br></br>
-                                    <span className="itemTitle">Recieved Request:</span>  {currentJobs.createdOn} <br></br>
+                                    <span className="itemTitle">Name:</span> {completedJobs.firstName} {completedJobs.lastName} <br></br>
+                                    <span className="itemTitle">Email:</span>  {completedJobs.email} <br></br>
+                                    <span className="itemTitle">Phone Number:</span>  {completedJobs.phoneNumber} <br></br>
+                                    <span className="itemTitle">Job Details:</span>  {completedJobs.jobDetails} <br></br>
+                                    <span className="itemTitle">Recieved Request:</span>  {completedJobs.createdOn} <br></br>
                                     <span>
-                                        <ArchiveBtn onClick={() => this.deleteCurrentJob(currentJobs._id)} />
+                                        <ArchiveBtn />
                                         <ReferBtn />
 
                                     </span>

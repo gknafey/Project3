@@ -13,6 +13,20 @@ router.route("/currentJobs")
 router.route("/currentJobs/:id")
   .delete(clientsController.removeCurrentJob);
 
+router.route("/completedJobs")
+  .get(clientsController.findAllCompleted)
+  .post(clientsController.createCompleted)
+
+router.route("/completedJobs/:id")
+  .delete(clientsController.removeCompleted);
+
+router.route("/referredJobs")
+  .get(clientsController.findAllReferred)
+  .post(clientsController.createReferred)
+
+router.route("/referredJobs/:id")
+  .delete(clientsController.removeReferred);
+
 
 
 router
@@ -28,7 +42,7 @@ router
 router
   .route("/UserLogin")
   .post(clientsController.signIn);
-router  
+router
   .route("/Verify/:name")
   .get(clientsController.findName);
 

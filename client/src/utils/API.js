@@ -8,6 +8,10 @@ export default {
   getCurrentJobs: function() {
     return axios.get("/api/clients/currentJobs");
   },
+
+  getCompletedJobs: function() {
+    return axios.get("/api/clients/completedJobs");
+  },
  
   getClient: function(id) {
     return axios.get("/api/clients/" + id);
@@ -25,6 +29,9 @@ export default {
   },
   saveCurrentJob: function(currentJobData) {
     return axios.post("/api/clients/currentJobs", currentJobData);
+  },
+  archiveCurrentJob: function(completedJobData) {
+    return axios.post("/api/clients/completedJobs", completedJobData)
   },
   newUser: function(userData) {
     return axios.post("/api/clients/SignUp", userData);

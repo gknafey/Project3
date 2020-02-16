@@ -13,7 +13,7 @@ const ReferBtn = (props) => {
     // </span>
 
     <ButtonDropdown className="refer-btn" {...props} role="button" tabIndex="0" isOpen={dropdownOpen} toggle={toggle}>
-      <DropdownToggle caret>
+      <DropdownToggle caret className="drop-down-css">
         Refer Job
       </DropdownToggle>
       <DropdownMenu>

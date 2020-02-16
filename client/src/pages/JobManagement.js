@@ -141,7 +141,7 @@ class JobManagement extends Component {
                                     <span className="itemTitle">Recieved Request:</span>  {client.createdOn} <br></br>
                                     <span>
                                         <ArchiveBtn onClick={() => this.deleteClient(client._id)} />
-                                        <ReferBtn />
+                                        <ReferBtn  />
                                         <AcceptBtn onClick={() => this.saveCurrentJob(client.firstName, client.lastName, client.email, client.phoneNumber, client.jobDetails, client.createdOn, client._id)} />
                                     </span>
                                 </ListItem>

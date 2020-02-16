@@ -1,14 +1,19 @@
 .refer-btn {
     float: right;
     color: #fff;
-    background-color: #00476b;
-    border: solid 3px #e5cdaa;
+    
+    
     border-radius: 3px;
     padding: 5px;
     margin-right: 10px;
     margin-top: 10px;
   }
-  .refer-btn:hover {
+  
+  .drop-down-css {
+    border: solid 3px #e5cdaa;
+    background-color: #00476b;
+  }
+
+  .drop-down-css:hover {
     background-color: #37c4bd;
   }
-  

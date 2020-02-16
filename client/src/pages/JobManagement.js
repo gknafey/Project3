@@ -67,6 +67,7 @@ class JobManagement extends Component {
 
 
     }
+    
 
     loadClients = () => {
         API.getClients()
@@ -112,6 +113,10 @@ class JobManagement extends Component {
         })
             .then(res => this.deleteCurrentJob(id), this.loadClients(), this.loadCurrentClients())
             .catch(err => console.log(err));
+    }
+
+    referCurrentClient = (f, l, e, p, j, c, clid, id) => {
+        console.log(f,l,e,p,j,c,clid,id);
     }
 
     loadCurrentClients = () => {

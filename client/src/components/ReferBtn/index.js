@@ -18,10 +18,17 @@ const ReferBtn = (props) => {
       </DropdownToggle>
       <DropdownMenu>
         <DropdownItem header>Referees</DropdownItem>
-        <DropdownItem>Tim Artist</DropdownItem>
-        <DropdownItem>Jerry</DropdownItem>
+        <DropdownItem id="TA" value="Tim Artist">Tim Artist</DropdownItem>
+        <DropdownItem id="Jerry" value="Jerry">Jerry</DropdownItem>
+        <DropdownItem id="NV" value="Nick Vuto">Nick Vuto</DropdownItem>
         <DropdownItem divider />
-        <DropdownItem>David Smith</DropdownItem>
+        <DropdownItem id="DS" value="David Smith">David Smith</DropdownItem>
+        
+        
+        
+      
+      
+      
       </DropdownMenu>
     </ButtonDropdown>
 

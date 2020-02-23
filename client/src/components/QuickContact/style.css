@@ -43,7 +43,7 @@
 
 @media (max-width: 414px) {
     .phoneStart {
-        font-size: 10px;
+        font-size: 11px;
         margin-left: 15px;
         margin-bottom: 0px;
         padding-bottom: 0px;
@@ -55,24 +55,24 @@
         color: white;
         background-color: #00476B;
         height: 60px;
-        font-size: 10px;
+        font-size: 11px;
         padding: 10px 40px 0px 0px;
     }
     
     .email {
-        font-size: 10px;
+        font-size: 11px;
         color: white;
         padding: 10px 27px 0px 0px;
         padding-bottom: 0px;
     }
     .phoneOrient {
-        font-size: 10px;
+        font-size: 11px;
         padding: 10px 0px 0 0;
         padding-bottom: 0px;
     }
     
     .phoneWork {
-        font-size: 10px;
+        font-size: 11px;
         color: white;
         padding-bottom: 0px;
     }

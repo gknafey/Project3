@@ -25,7 +25,7 @@
     border-color: #e5cdaa;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1024px) {
     .slides {
         height: 300px;
         width:100%;
@@ -53,4 +53,160 @@
         border-color: #e5cdaa;
         height: 315px;
     }
+
+}
+
+@media (max-width: 768px) {
+    .slides {
+        height: 275px;
+        width:100%;
+        
+    }
+    
+    .slide {
+        height: 275px;
+        width: 50%;
+    }
+    
+    .firstslide {
+        height: 275px;
+        width: 60%;
+    }
+    
+    .fourthslide {
+        height: 275px;
+        width: 40%;
+    }
+    
+    .slide-container {
+        border-bottom: solid 190px;
+        border-top: solid 10px;
+        border-color: #e5cdaa;
+        height: 290px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .slides {
+        height: 185px;
+        width:100%;
+        
+    }
+    
+    .slide {
+        height: 185px;
+        width: 50%;
+    }
+    
+    .firstslide {
+        height: 185px;
+        width: 60%;
+    }
+    
+    .fourthslide {
+        height: 185px;
+        width: 40%;
+    }
+    
+    .slide-container {
+        border-bottom: solid 190px;
+        border-top: solid 10px;
+        border-color: #e5cdaa;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .slides {
+        height: 185px;
+        width:100%;
+        
+    }
+    
+    .slide {
+        height: 185px;
+        width: 50%;
+    }
+    
+    .firstslide {
+        height: 185px;
+        width: 60%;
+    }
+    
+    .fourthslide {
+        height: 185px;
+        width: 40%;
+    }
+    
+    .slide-container {
+        border-bottom: solid 190px;
+        border-top: solid 10px;
+        border-color: #e5cdaa;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .slides {
+        height: 185px;
+        width:100%;
+        
+    }
+    
+    .slide {
+        height: 185px;
+        width: 50%;
+    }
+    
+    .firstslide {
+        height: 185px;
+        width: 60%;
+    }
+    
+    .fourthslide {
+        height: 185px;
+        width: 40%;
+    }
+    
+    .slide-container {
+        border-bottom: solid 190px;
+        border-top: solid 10px;
+        border-color: #e5cdaa;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 411px) {
+    .slides {
+        height: 185px;
+        width:100%;
+        
+    }
+    
+    .slide {
+        height: 185px;
+        width: 50%;
+    }
+    
+    .firstslide {
+        height: 185px;
+        width: 60%;
+    }
+    
+    .fourthslide {
+        height: 185px;
+        width: 40%;
+    }
+    
+    .slide-container {
+        border-bottom: solid 190px;
+        border-top: solid 10px;
+        border-color: #e5cdaa;
+        height: 200px;
+    }
+
 }

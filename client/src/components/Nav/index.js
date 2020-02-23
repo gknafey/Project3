@@ -11,7 +11,7 @@ function Nav() {
 
       <ul className="nav justify-content-end navOrient1">
         <li className="nav-item">
-          <Link to="/" className="nav-item test">Home </Link>
+          <Link to="/" className="nav-item test homeLeft">Home </Link>
         </li>
         <li className="nav-item">
           <p className="nav-item center0" style={{ "color": "#e5cdaa" }}>&nbsp;|&nbsp;</p>
@@ -32,7 +32,7 @@ function Nav() {
           <Link to="/Services" className="nav-item test center1">Services </Link>
         </li>
         <li className="nav-item">
-          <p className="nav-item center0" style={{ "color": "#e5cdaa" }}>&nbsp;|&nbsp;</p>
+          <p className="nav-item center0 linedis" style={{ "color": "#e5cdaa" }}>&nbsp;|&nbsp;</p>
         </li>
         <li className="nav-item">
           <Link to="/RequestForm" className="nav-item test center2">Request a Quote </Link>

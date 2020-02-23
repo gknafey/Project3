@@ -24,98 +24,133 @@
 }
 
 @media (max-width: 768px) {
+    .phoneStart {
+    
+        font-size: 24px;
+    }
+
     .quickContact {
-        width: 100%;
-        margin-bottom:38px;
-    }
-    .email {
+        text-align: right;
+        color: white;
         background-color: #00476B;
-        padding: 0px 205px 10px 161.5px;
-        
-    }
-    .phoneOrient {
-        padding: 10px 80px 0 0;
+        height: 60px;
+        font-size: 27px;
+        padding: 10px 40px 0 0;
     }
 }
 
-@media (max-width: 600px) {
-    
-    .quickContact {
-        width: 100%;
-        margin-bottom:38px;
-    }
-    .email {
-        background-color: #00476B;
-        padding: 0px 98px 10px 100px;
-        
-    }
-    .phoneOrient {
-        padding: 10px 80px 0 0;
-    }
-   
-  }
+
 
 @media (max-width: 414px) {
-    .quickContact {
-    text-align: left;
-    color: white;
-    background-color: #00476B;
-    height: 60px;
-    font-size: 10px;
-    padding: 10px 40px 0 0;
-    }
-    .phoneOrient {
-        padding: 10px 80px 0 0;
-        font-size: 20px;
+    .phoneStart {
+        font-size: 12px;
+        margin-left: 15px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        height: 20px;
     }
 
-    .email {
+    .quickContact {
+        text-align: right;
+        color: white;
         background-color: #00476B;
-        padding: 0px 17px 10px 100px;
-        font-size: 20px;
+        height: 60px;
+        font-size: 12px;
+        padding: 10px 40px 0px 0px;
+    }
+    
+    .email {
+        font-size: 12px;
+        color: white;
+        padding: 10px 27px 0px 0px;
+        padding-bottom: 0px;
+    }
+    .phoneOrient {
+        font-size: 12px;
+        padding: 10px 0px 0 0;
+        padding-bottom: 0px;
+    }
+    
+    .phoneWork {
+        font-size: 12px;
+        color: white;
+        padding-bottom: 0px;
     }
 }
 
 @media (max-width: 375px) {
+    .phoneStart {
+        font-size: 12px;
+        margin-left: 15px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        height: 20px;
+    }
+
     .quickContact {
-        text-align: left;
+        text-align: right;
         color: white;
         background-color: #00476B;
         height: 60px;
         font-size: 10px;
-        padding: 10px 40px 0 0;
-        }
-        .phoneOrient {
-            padding: 10px 80px 0 0;
-            font-size: 15px;
-        }
+        padding: 10px 40px 0px 0px;
+    }
     
-        .email {
-            background-color: #00476B;
-            padding: 10px 52px 13px 100px;
-            font-size: 15px;
-        }
+    .email {
+        font-size: 10px;
+        color: white;
+        padding: 10px 27px 0px 0px;
+        padding-bottom: 0px;
+    }
+    .phoneOrient {
+        font-size: 12px;
+        padding: 10px 0px 0 0;
+        padding-bottom: 0px;
+    }
+    
+    .phoneWork {
+        font-size: 10px;
+        color: white;
+        padding-bottom: 0px;
+    }
 }
 
 @media (max-width: 320px) {
+    .phoneStart {
+        font-size: 10px;
+        margin-left: -1.9px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        height: 20px;
+
+    }
+
     .quickContact {
-        text-align: left;
+        text-align: right;
         color: white;
         background-color: #00476B;
         height: 60px;
         font-size: 10px;
-        padding: 10px 40px 0 0;
-        }
-        .phoneOrient {
-            padding: 10px 80px 0 0;
-            font-size: 13px;
-        }
+        padding: 10px 40px 0px 0px;
+    }
     
-        .email {
-            background-color: #00476B;
-            padding: 10px 27px 13px 100px;
-            font-size: 13px;
-        }
+    .email {
+        font-size: 10px;
+        color: white;
+        padding: 10px 27px 0px 0px;
+        padding-bottom: 0px;
+    }
+    .phoneOrient {
+        font-size: 10px;
+        padding: 10px 0px 0 0;
+        padding-bottom: 0px;
+    }
+    
+    .phoneWork {
+        font-size: 10px;
+        color: white;
+        padding-bottom: 0px;
+    }
 }
 
 

@@ -3,8 +3,6 @@
     font-size: 25px;
     background-color: #37c4bd;
     background-color: #00476b;
-    /* background-color: #e5cdaa; */
-    /* background-color: #c18227; */
     border-radius: 0;
     width: 33.33%;
     float: right;
@@ -19,11 +17,9 @@
 @media(max-width: 414px) {
     .customBtn {
         color: #fff;
-        font-size: 15px;
+        font-size: 12px;
         background-color: #37c4bd;
         background-color: #00476b;
-        /* background-color: #e5cdaa; */
-        /* background-color: #c18227; */
         border-radius: 0;
         width: 33.33%;
         float: right;
@@ -37,8 +33,6 @@
         font-size: 12px;
         background-color: #37c4bd;
         background-color: #00476b;
-        /* background-color: #e5cdaa; */
-        /* background-color: #c18227; */
         border-radius: 0;
         width: 33.33%;
         float: right;

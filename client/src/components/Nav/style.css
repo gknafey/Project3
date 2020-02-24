@@ -70,40 +70,8 @@
    
   }
 
-@media (max-width: 375px) {
-    .navbar {
-        font-size: 12px;
-    }
-    .logo {
-        margin-left: 0%;
-        align-content: left;
-        width: 315px;
-    }
-    .center1 {
-        margin-left: 20px;
-    }
-    .center2 {
-        margin-right: 0px;
-    }
-    .center0 {
-        margin-right: 20px;
-    }
 
-    .disappear1 {
-        display: block;
-    }
-    .navOrient1 {
-        width: 85%;
-    }
-
-    .test {
-        color: #00476B;
-        padding-right: 10px;
-    }
-
-}
-
-@media (max-width: 414px) {
+  @media (max-width: 414px) {
     .navbar {
         font-size: 12px;
     }
@@ -137,40 +105,6 @@
         color: #00476B;
         padding-right: 10px;
     }
-
-}
-
-@media (max-width: 320px) {
-    .navbar {
-        font-size: 12px;
-    }
-    .logo {
-        margin-left: 0%;
-        align-content: left;
-        width: 275px;
-    }
-    .center1 {
-        margin-left: 10px;
-    }
-    .center2 {
-        margin-right: 0px;
-    }
-    .center0 {
-        margin-right: 10px;
-    }
-
-    .disappear1 {
-        display: block;
-    }
-    .navOrient1 {
-        width: 85%;
-    }
-
-    .test {
-        color: #00476B;
-        padding-right: 7px;
-    }
-
 
 }
 
@@ -186,6 +120,42 @@
             margin-left: 5%;
     
         
+    }
+    .center1 {
+        margin-left: 20px;
+    }
+    .center2 {
+        margin-right: 0px;
+    }
+    .center0 {
+        margin-right: 20px;
+    }
+
+    .disappear1 {
+        display: block;
+    }
+    .navOrient1 {
+        width: 85%;
+    }
+
+    .test {
+        color: #00476B;
+        padding-right: 10px;
+    }
+
+}
+
+
+
+
+@media (max-width: 375px) {
+    .navbar {
+        font-size: 12px;
+    }
+    .logo {
+        margin-left: 0%;
+        align-content: left;
+        width: 315px;
     }
     .center1 {
         margin-left: 20px;
@@ -243,6 +213,46 @@
     }
 
 }
+
+
+
+@media (max-width: 320px) {
+    .navbar {
+        font-size: 12px;
+    }
+    .logo {
+        margin-left: 0%;
+        align-content: left;
+        width: 275px;
+    }
+    .center1 {
+        margin-left: 10px;
+    }
+    .center2 {
+        margin-right: 0px;
+    }
+    .center0 {
+        margin-right: 10px;
+    }
+
+    .disappear1 {
+        display: block;
+    }
+    .navOrient1 {
+        width: 85%;
+    }
+
+    .test {
+        color: #00476B;
+        padding-right: 7px;
+    }
+
+
+}
+
+
+
+
 
 
 

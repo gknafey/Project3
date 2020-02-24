@@ -17,14 +17,56 @@ html,body
     overflow-x: hidden; 
 }
 
-@media(max-width: 1118px) {
-   .aboutImg{
-    width: 80%;
-    max-height: 500px;
-   } 
+
+
+
+@media (max-width: 1024px) {
+
+   
+   
 }
 
-@media(max-width: 414px) {
+
+
+@media (max-width: 768px) {
+
+   
+   
+}
+
+@media (max-width: 600px) {
     
+   
 }
 
+
+  @media (max-width: 414px) {
+   
+
+}
+
+@media (max-width: 411px) {
+    
+
+}
+
+
+
+
+@media (max-width: 375px) {
+    
+
+}
+
+@media (max-width: 360px) {
+    
+
+}
+
+
+
+@media (max-width: 320px) {
+    
+
+
+}

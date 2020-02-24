@@ -30,25 +30,360 @@
     border-radius: 3px;
 }
 
-@media (max-width: 1501px) {
-    .card-text{
-        font-size:15px;
+@media (max-width: 1024px) {
+
+    .requestA {
+        /* position: absolute; */
+        width: 30%;
+        height: 100%;
+        background-color: #00476b;
+        text-align: left;
+        border: solid 3px #e5cdaa;
+        float: right;
+       
     }
-
-}
-
-@media (max-width: 1456px) {
+    
+    .card-header {
+        font-size: 25px;
+        border-bottom: solid 2px #e5cdaa;
+    }
+    
+    .card-title {
+        font-size: 18px;
+    }
+    
+    .card-text {
+        font-size: 15px;
+    }
+    
     .FormButton {
         position: relative;
         top: -20px;
-        left: -80px;
+        left: -40px;
         border: solid 3px #e5cdaa;
         border-radius: 3px;
-        width: 60%;
     }
+   
 }
-@media (max-width: 1118px) {
+
+
+
+@media (max-width: 768px) {
+
     .requestA {
-        display: none;
+        /* position: absolute; */
+        width: 30%;
+        height: 100%;
+        background-color: #00476b;
+        text-align: left;
+        border: solid 3px #e5cdaa;
+        float: right;
+       
     }
+    
+    .card-header {
+        font-size: 20px;
+        border-bottom: solid 2px #e5cdaa;
+    }
+    
+    .card-title {
+        font-size: 15px;
+    }
+    
+    .card-text {
+        font-size: 12px;
+    }
+    
+    .FormButton {
+        position: relative;
+        top: -20px;
+        left: -40px;
+        border: solid 3px #e5cdaa;
+        border-radius: 3px;
+        min-width: 100px;
+        font-size: 20px;
+    }
+
+   
+   
+}
+
+@media (max-width: 600px) {
+
+    .requestA {
+        width: 30%;
+        height: 100%;
+        background-color: #00476b;
+        text-align: left;
+        border: solid 2px #e5cdaa;
+        float: right;
+        max-height: 250px;
+       
+    }
+    
+    .card-header {
+        font-size: 11px;
+        text-align: center;
+        border-bottom: solid 2px #e5cdaa;
+        padding: 10px;
+    }
+    
+    .card-title {
+        font-size: 9px;
+    }
+    
+    .card-text {
+        font-size: 5.5px;
+        width: 100%;
+    }
+    
+    .FormButton {
+        position: relative;
+        top: -10px;
+        left: -10px;
+        border: solid 2px #e5cdaa;
+        border-radius: 3px;
+        min-width: 60px;
+        font-size: 10px;
+    }
+    .card-body {
+        width: 100%;
+        padding: 5px;
+    }
+    
+   
+}
+
+
+  @media (max-width: 414px) {
+
+    .requestA {
+        width: 30%;
+        height: 100%;
+        background-color: #00476b;
+        text-align: left;
+        border: solid 2px #e5cdaa;
+        float: right;
+        max-height: 250px;
+       
+    }
+    
+    .card-header {
+        font-size: 11px;
+        text-align: center;
+        border-bottom: solid 2px #e5cdaa;
+        padding: 10px;
+    }
+    
+    .card-title {
+        font-size: 9px;
+    }
+    
+    .card-text {
+        font-size: 5.5px;
+        width: 100%;
+    }
+    
+    .FormButton {
+        position: relative;
+        top: -10px;
+        left: -10px;
+        border: solid 2px #e5cdaa;
+        border-radius: 3px;
+        min-width: 60px;
+        font-size: 10px;
+    }
+    .card-body {
+        width: 100%;
+        padding: 5px;
+    }
+   
+
+}
+
+@media (max-width: 411px) {
+
+    .requestA {
+        width: 30%;
+        height: 100%;
+        background-color: #00476b;
+        text-align: left;
+        border: solid 2px #e5cdaa;
+        float: right;
+        max-height: 250px;
+       
+    }
+    
+    .card-header {
+        font-size: 11px;
+        text-align: center;
+        border-bottom: solid 2px #e5cdaa;
+        padding: 10px;
+    }
+    
+    .card-title {
+        font-size: 9px;
+    }
+    
+    .card-text {
+        font-size: 5.5px;
+        width: 100%;
+    }
+    
+    .FormButton {
+        position: relative;
+        top: -10px;
+        left: -10px;
+        border: solid 2px #e5cdaa;
+        border-radius: 3px;
+        min-width: 60px;
+        font-size: 10px;
+    }
+    .card-body {
+        width: 100%;
+        padding: 5px;
+    }
+    
+
+}
+
+
+
+
+@media (max-width: 375px) {
+
+    .requestA {
+        width: 30%;
+        height: 100%;
+        background-color: #00476b;
+        text-align: left;
+        border: solid 2px #e5cdaa;
+        float: right;
+        max-height: 250px;
+       
+    }
+    
+    .card-header {
+        font-size: 11px;
+        text-align: center;
+        border-bottom: solid 2px #e5cdaa;
+        padding: 10px;
+    }
+    
+    .card-title {
+        font-size: 9px;
+    }
+    
+    .card-text {
+        font-size: 5.5px;
+        width: 100%;
+    }
+    
+    .FormButton {
+        position: relative;
+        top: -10px;
+        left: -10px;
+        border: solid 2px #e5cdaa;
+        border-radius: 3px;
+        min-width: 60px;
+        font-size: 10px;
+    }
+    .card-body {
+        width: 100%;
+        padding: 5px;
+    }
+    
+
+}
+
+@media (max-width: 360px) {
+    
+    .requestA {
+        width: 30%;
+        height: 100%;
+        background-color: #00476b;
+        text-align: left;
+        border: solid 2px #e5cdaa;
+        float: right;
+        max-height: 250px;
+       
+    }
+    
+    .card-header {
+        font-size: 11px;
+        text-align: center;
+        border-bottom: solid 2px #e5cdaa;
+        padding: 10px;
+    }
+    
+    .card-title {
+        font-size: 9px;
+    }
+    
+    .card-text {
+        font-size: 5.5px;
+        width: 100%;
+    }
+    
+    .FormButton {
+        position: relative;
+        top: -10px;
+        left: -10px;
+        border: solid 2px #e5cdaa;
+        border-radius: 3px;
+        min-width: 60px;
+        font-size: 10px;
+    }
+    .card-body {
+        width: 100%;
+        padding: 5px;
+    }
+
+}
+
+
+
+@media (max-width: 320px) {
+    
+    .requestA {
+        width: 30%;
+        height: 100%;
+        background-color: #00476b;
+        text-align: left;
+        border: solid 2px #e5cdaa;
+        float: right;
+        max-height: 250px;
+       
+    }
+    
+    .card-header {
+        font-size: 11px;
+        text-align: center;
+        border-bottom: solid 2px #e5cdaa;
+        padding: 10px;
+    }
+    
+    .card-title {
+        font-size: 9px;
+    }
+    
+    .card-text {
+        font-size: 5.5px;
+        width: 100%;
+    }
+    
+    .FormButton {
+        position: relative;
+        top: -10px;
+        left: -10px;
+        border: solid 2px #e5cdaa;
+        border-radius: 3px;
+        min-width: 60px;
+        font-size: 10px;
+    }
+    .card-body {
+        width: 100%;
+        padding: 5px;
+    }
+
 }

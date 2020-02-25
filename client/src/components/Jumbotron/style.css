@@ -1,6 +1,7 @@
 .jumbotron {
     background-color: #fff;
     height: 600px;
+    padding-top: 60;
 }
 
 .jumboBorder {
@@ -13,11 +14,14 @@
 @media (max-width: 414px) {
     .jumbotron {
         background-color: #fff;
+        padding: 10px 10px 10px 10px;
     }
     .jumboBorder {
         border-bottom: solid 10px;
         border-top: solid 10px;
         border-color: #e5cdaa;
-        height: 350px;
+        height: 250px;
+        padding: 10px 10px 10px 10px;
+        
     }
 }

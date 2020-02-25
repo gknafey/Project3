@@ -25,3 +25,28 @@
 .linkText:hover {
     color: #37c4bd;
 }
+
+@media (max-width: 414px) {
+    .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 140px;
+        background-color: #00476b;
+        color: white;
+        text-align: center;
+    }
+    
+    .footBorder {
+        padding: 20px;
+    }
+    
+    .headLink {
+        font-size: 15px;
+    }
+    .linkText {
+        font-size: 12px;
+        color: #fff;
+    }
+    
+}

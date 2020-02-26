@@ -20,10 +20,10 @@ import After6 from "../../images/NC_top_right_2_edited.JPG";
 function Portfolio1() {
 
     return (
-
+        <div className="borderPortfolio">
         <div className="media portfolio-size">
             <div className="row1">
-                <div className="col-md comparison-1">
+                <div className="comparison-1">
                     <p className="name-style">3 Coat Plaster</p>
                     <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
                     <div className="image-style-portfolio">
@@ -86,7 +86,7 @@ function Portfolio1() {
 
         </div>
 
-
+        </div>
 
 
 

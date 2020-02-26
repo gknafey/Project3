@@ -8,6 +8,12 @@
 
 }
 
+.borderPortfolio {
+    border-bottom: solid 10px;
+    border-top: solid 10px;
+    border-color: #e5cdaa;
+}
+
 .name-style {
     font-size: 50px;
     text-decoration: underline;
@@ -46,6 +52,8 @@
     border: solid 25px #00476b;
     border-radius:10px;
     padding-bottom: 90px;
+    padding-right: 15px;
+    padding-left: 15px;
     
     
 }
@@ -56,6 +64,8 @@
     border: solid 25px #00476b;
     border-radius:10px;
     padding-bottom: 90px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 
@@ -67,6 +77,8 @@
     border-radius:10px;
     padding-bottom: 90px;
     margin-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
     
 }
 
@@ -161,7 +173,8 @@
 
     .portfolio-size {
         margin: 30px auto 30px auto;
-        width: 95%;
+        max-width: 364.8px;
+        height: 3000px;
         color: #fff;
         background-color: #fff; 
         border: solid 10px #00476b;
@@ -169,7 +182,7 @@
     }
     
     .name-style {
-        font-size: 15px;
+        font-size: 20px;
         text-decoration: underline;
         
     }
@@ -188,14 +201,21 @@
     }
     
     .row1 {
-        margin: 0.25%;
-        width:50%;
+        margin: 2.5%;
+        min-width: 95%;
+        float: left;
+        clear: right;
         
     }
     
     .row2 {
-        margin: 0.25%;
-        width:50%;
+        position: relative;
+        margin: 2.5%;
+        display: block;
+        min-width: 95%;
+        float: left;
+        top: 1515px;
+        left: -345px;
         
     }
     
@@ -228,7 +248,7 @@
         background-color: #00476b;
         border: solid 25px #00476b;
         border-radius:10px;
-        padding-bottom: 70px;
+        padding-bottom: 50px;
         margin-bottom: 15px;
         padding-right: 0px;
         padding-left: 0px;    

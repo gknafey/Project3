@@ -15,9 +15,9 @@ class Portfolio extends Component {
     
     return (
       
-      <Container fluid>
+      
         <Portfolio1 />
-      </Container>
+      
     );
   }
 }

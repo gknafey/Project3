@@ -51,3 +51,106 @@
     font-size: 20px;
     color: yellow;
 }
+
+@media(max-width: 414px) {
+
+
+    .form-group {
+        margin-top: 0px;
+    }
+    
+    .formTitleMobile {
+        font-size: 30px;
+    }
+
+    .QuoteBtn {
+        color: #fff;
+        font-size: 25px;
+        background-color: #37c4bd;
+        background-color: #00476b;
+        border: solid 3px #e5cdaa;
+        border-radius: 3px;
+       
+    }
+    
+    .quoteRequestSize {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .quote-size {
+        font-size: 15px;
+    }
+    
+    .quote-text-width {
+        width: 55%;
+    }
+    
+    .quote-area-width {
+        width: 90%;
+        height: 100px;
+        margin-bottom: -55%;
+    }
+    
+    .logo-location2 {
+        max-width: 43%;
+        background-color: #fff;
+        float: right;
+        margin-right: -3%;
+        margin-top: 2%;
+        border: solid 4px #e5cdaa;
+        border-radius: 75px;
+    }
+    
+    .submitted-form-response {
+        font-size: 30px;
+        float: right;
+        margin-right: 20px;
+        font-weight: bold;
+        visibility: hidden;
+    }
+    
+    #phonePrefix {
+        width: 5%;
+    }
+    
+    .response {
+        font-size: 20px;
+        color: yellow;
+    }
+    
+
+}
+
+@media(max-width: 375px) {
+
+    .quote-area-width {
+        width: 90%;
+        height: 100px;
+        margin-bottom: -60%;
+    }
+
+}
+
+@media(max-width: 360px) {
+
+    .quote-area-width {
+        width: 90%;
+        height: 100px;
+        margin-bottom: -80%;
+    }
+
+}
+
+@media(max-width: 320px) {
+    
+    .quote-area-width {
+        margin-bottom: -90%;
+    }
+
+}

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Container } from "../components/Grid";
 import Portfolio1 from "../components/Portfolio1";
 
 

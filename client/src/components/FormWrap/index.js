@@ -56,24 +56,13 @@ const MyTextArea = ({ label, ...props }) => {
     );
 };
 
-// const Visible = () => {
-//     document.getElementsByClassName("submitted-form-response");
-//     console.log(document.getElementsByClassName("submitted-form-response"));
-   
-// }
-
-
-// submitted-form-response
-
-
-
 const FormWrap = () => {
 
 
     return (
         <div className="content quoteRequestSize">
             <>
-                <h1>Quote Request Form</h1>
+                <h1 className="formTitleMobile">Quote Request Form</h1>
                 <Formik
                     initialValues={{
                         firstName: "",

@@ -256,3 +256,276 @@
    
 }
 
+@media (max-width: 375px) {
+
+    .mobilePort {
+        font-size: 10px;
+    }
+
+    .portfolio-size {
+        margin: 30px auto 30px auto;
+        max-width: 364.8px;
+        height: 2950px;
+        color: #fff;
+        background-color: #fff; 
+        border: solid 10px #00476b;
+        border-radius: 20px;
+    }
+    
+    .name-style {
+        font-size: 20px;
+        text-decoration: underline;
+        
+    }
+    
+    .comparison-button {
+        margin-top: 5%;
+        min-width: 120px;
+        border: solid 3px #e5cdaa;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    
+    .image-style-portfolio {
+       border: solid 5px #e5cdaa;
+       border-radius: 10px;
+    }
+    
+    .row1 {
+        margin: 2.5%;
+        min-width: 95%;
+        float: left;
+        clear: right;
+        
+    }
+    
+    .row2 {
+        position: relative;
+        margin: 2.5%;
+        display: block;
+        min-width: 95%;
+        float: left;
+        top: 1490px;
+        left: -337px;
+        
+    }
+    
+    .comparison-1 {
+        margin: 0.5%;
+        margin-bottom: 15px;
+        min-width: 30%;
+        background-color: #00476b;
+        border: solid 25px #00476b;
+        border-radius:10px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .comparison-2 {
+        margin: 0.5%;
+        min-width: 65%;
+        background-color: #00476b;
+        border: solid 25px #00476b;
+        border-radius:10px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    
+    .comparison-3 {
+        margin: 0.5%;
+        min-width: 50%;
+        background-color: #00476b;
+        border: solid 25px #00476b;
+        border-radius:10px;
+        padding-bottom: 50px;
+        margin-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 0px;    
+    }
+   
+}
+
+@media (max-width: 360px) {
+
+    .mobilePort {
+        font-size: 10px;
+    }
+
+    .portfolio-size {
+        margin: 30px auto 30px auto;
+        max-width: 364.8px;
+        height: 2860px;
+        color: #fff;
+        background-color: #fff; 
+        border: solid 10px #00476b;
+        border-radius: 20px;
+    }
+    
+    .name-style {
+        font-size: 20px;
+        text-decoration: underline;
+        
+    }
+    
+    .comparison-button {
+        margin-top: 5%;
+        min-width: 120px;
+        border: solid 3px #e5cdaa;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    
+    .image-style-portfolio {
+       border: solid 5px #e5cdaa;
+       border-radius: 10px;
+    }
+    
+    .row1 {
+        margin: 2.5%;
+        min-width: 95%;
+        float: left;
+        clear: right;
+        
+    }
+    
+    .row2 {
+        position: relative;
+        margin: 2.5%;
+        display: block;
+        min-width: 95%;
+        float: left;
+        top: 1445px;
+        left: -323px;
+        
+    }
+    
+    .comparison-1 {
+        margin: 0.5%;
+        margin-bottom: 15px;
+        min-width: 30%;
+        background-color: #00476b;
+        border: solid 25px #00476b;
+        border-radius:10px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .comparison-2 {
+        margin: 0.5%;
+        min-width: 65%;
+        background-color: #00476b;
+        border: solid 25px #00476b;
+        border-radius:10px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    
+    .comparison-3 {
+        margin: 0.5%;
+        min-width: 50%;
+        background-color: #00476b;
+        border: solid 25px #00476b;
+        border-radius:10px;
+        padding-bottom: 50px;
+        margin-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 0px;    
+    }
+   
+}
+
+@media (max-width: 360px) {
+
+    .mobilePort {
+        font-size: 10px;
+    }
+
+    .portfolio-size {
+        margin: 30px auto 30px auto;
+        max-width: 364.8px;
+        height: 2622px;
+        color: #fff;
+        background-color: #fff; 
+        border: solid 10px #00476b;
+        border-radius: 20px;
+    }
+    
+    .name-style {
+        font-size: 20px;
+        text-decoration: underline;
+        
+    }
+    
+    .comparison-button {
+        margin-top: 5%;
+        min-width: 120px;
+        border: solid 3px #e5cdaa;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    
+    .image-style-portfolio {
+       border: solid 5px #e5cdaa;
+       border-radius: 10px;
+    }
+    
+    .row1 {
+        margin: 2.5%;
+        min-width: 95%;
+        float: left;
+        clear: right;
+        
+    }
+    
+    .row2 {
+        position: relative;
+        margin: 2.5%;
+        display: block;
+        min-width: 95%;
+        float: left;
+        top: 1325px;
+        left: -285px;
+        
+    }
+    
+    .comparison-1 {
+        margin: 0.5%;
+        margin-bottom: 15px;
+        min-width: 30%;
+        background-color: #00476b;
+        border: solid 25px #00476b;
+        border-radius:10px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .comparison-2 {
+        margin: 0.5%;
+        min-width: 65%;
+        background-color: #00476b;
+        border: solid 25px #00476b;
+        border-radius:10px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    
+    .comparison-3 {
+        margin: 0.5%;
+        min-width: 50%;
+        background-color: #00476b;
+        border: solid 25px #00476b;
+        border-radius:10px;
+        padding-bottom: 50px;
+        margin-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 0px;    
+    }
+   
+}
+

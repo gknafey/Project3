@@ -2,9 +2,10 @@
 
     width: 32.75%;
     max-height: 500px;
-    margin-left: 0px;
+    margin-left: 3.5%;
     border: solid 3px #e5cdaa;
     border-radius: 3px;
+    float: left;
     
 }
 
@@ -41,8 +42,21 @@ html,body
 
 
   @media (max-width: 414px) {
-   
 
+    .aboutImg {
+      width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+      height: 30%;
+      max-height: 500px;;
+      border: solid 3px #e5cdaa;
+      border-radius: 3px;
+      float: left;
+      margin-bottom: 3.5%;
+
+      
+  }
+  
 }
 
 @media (max-width: 411px) {

@@ -24,7 +24,7 @@ function Portfolio1() {
         <div className="media portfolio-size">
             <div className="row1">
                 <div className="comparison-1">
-                    <p className="name-style">3 Coat Plaster</p>
+                    <p className="name-style">Veneer Coat Plastering</p>
                     <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before1} rightImage={After1} />
@@ -34,7 +34,7 @@ function Portfolio1() {
                 </div>
 
                 <div className="comparison-3">
-                    <p className="name-style">Grainger Auditorium North Carolina</p>
+                    <p className="name-style">Historic Grainger Auditorium | North Carolina</p>
                     <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before6} rightImage={After6} />
@@ -43,7 +43,7 @@ function Portfolio1() {
                 </div>
                 
                 <div className="comparison-2">
-                    <p className="name-style">Buccleuch</p>
+                    <p className="name-style">Buccleuch Mansion | New Brunswick, NJ</p>
                     <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before5} rightImage={After5} />
@@ -55,7 +55,7 @@ function Portfolio1() {
             <div className="row2">
 
                 <div className="comparison-3">
-                    <p className="name-style">Ornamental Plaster</p>
+                    <p className="name-style">Ornamental Plaster Repair</p>
                     <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before2} rightImage={After2} />
@@ -64,7 +64,7 @@ function Portfolio1() {
                 </div>
 
                 <div className="comparison-3">
-                    <p className="name-style">Masonic Lobby</p>
+                    <p className="name-style"> Historic Masonic Temple Lobby | Trenton, NJ</p>
                     <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before3} rightImage={After3} />
@@ -73,7 +73,7 @@ function Portfolio1() {
                 </div>
 
                 <div className="comparison-2">
-                    <p className="name-style">Masonic Meeting Hall</p>
+                    <p className="name-style">Historic Masonic Temple | Trenton, NJ</p>
                     <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before4} rightImage={After4} />

@@ -22,13 +22,16 @@ function ServicesPageInfo() {
                     <li className="contact-text-size">Skim-Coat Plastering</li>
                     <li className="contact-text-size">3 Coat Plaster</li>
                     <li className="contact-text-size">Venetian Plaster</li>
-                    <li className="contact-text-size">Ornamental &amp; Decorative Plaster Moldings</li>
+                    <li className="contact-text-size">Ornamental Plaster Repair</li>
+                    <li className="contact-text-size">Ornamental Plaster Replication</li>
                     <li className="contact-text-size">Sandfloat Textures</li>
                     <li className="contact-text-size">Custom Textures</li>
                     <li className="contact-text-size">New Construction Plastering</li>
                     <li className="contact-text-size">Historical Restorations</li>
                     <li className="contact-text-size">Decorative Painting</li>
                     <li className="contact-text-size">Plaster Consulting</li>
+                    <li className="contact-text-size">Wall Paper Removal</li>
+
 
                 </ul>
 

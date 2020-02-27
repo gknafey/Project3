@@ -14,6 +14,13 @@
   
 }
 
+.emailAndPhone {
+    color:#e5cdaa;
+}
+
+.emailAndPhone:hover {
+    color: #c18227;
+}
 .contact-text-size {
     font-size: 40px;
 }

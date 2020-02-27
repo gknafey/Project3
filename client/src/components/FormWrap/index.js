@@ -62,7 +62,7 @@ const FormWrap = () => {
     return (
         <div className="content quoteRequestSize">
             <>
-                <h1 className="formTitleMobile">Quote Request Form</h1>
+                <h1 className="formTitleMobile">Estimate Request Form</h1>
                 <Formik
                     initialValues={{
                         firstName: "",
@@ -158,7 +158,7 @@ const FormWrap = () => {
 
 
                         <MyTextArea
-                            label="Job Details (Please Include Project Location / Address)"
+                            label="Job Details (Please include a brief description of the project as well as the job location)"
                             name="jobDetails"
                             type="text"
                             placeholder="Job Details Here"

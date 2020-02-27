@@ -7,7 +7,7 @@ function LinkBtn() {
   return (
     <span className="cover" tabIndex="0">
       <Link to="/AboutUs"> <button type="button" className="btn btn-lg btn-block customBtn">About Us</button> </Link>
-      <Link to="/RequestForm"> <button type="button" className="btn btn-lg btn-block two customBtn">Request a Quote</button> </Link>
+      <Link to="/RequestForm"> <button type="button" className="btn btn-lg btn-block two customBtn">Request an Estimate</button> </Link>
       <Link to="/Portfolio"> <button type="button" className="btn btn-lg btn-block three customBtn">Full Portfolio</button> </Link>
     </span>
   );

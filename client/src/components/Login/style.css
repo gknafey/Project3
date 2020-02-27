@@ -29,12 +29,12 @@
 }
 
 .spaceMe3 {
-    margin: 0 25px 0 20px;
+    margin: 0 20px 0 20px;
     font-size: 18px;
 }
 
 .spaceMe4 {
-    margin: 0 50px 0 20px;
+    margin: 0 20px 0 20px;
     font-size: 18px;
 }
 
@@ -57,9 +57,9 @@
     }
     
     .content2 {
-        margin: 20px auto 20px auto;
-        padding: 20px;
-        width: 70%;
+        margin: 150px auto 160px auto;
+        padding: 80px;
+        width: 90%;
         height: 100%;
         color: #fff;
         background-color: #00476b; 
@@ -71,9 +71,19 @@
         margin: 0 20px 0 20px;
         font-size: 18px;
     }
-
+    
     .spaceMe2 {
-        margin: 0 80px 0 20px;
+        margin: 0 150px 0 20px;
+        font-size: 18px;
+    }
+    
+    .spaceMe3 {
+        margin: 0 25px 0 20px;
+        font-size: 18px;
+    }
+    
+    .spaceMe4 {
+        margin: 0 50px 0 20px;
         font-size: 18px;
     }
     

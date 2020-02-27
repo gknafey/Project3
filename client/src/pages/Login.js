@@ -50,9 +50,9 @@ class LoginInfo extends Component {
 
             <div>
               <label className="spaceMe">Username: </label>
-              <input onChange={this.onChange} className="spaceMe" type="text" name="username" placeholder="username" />
-              <label className="spaceMe" >Password</label>
-              <input onChange={this.onChange} className="spaceMe" type="password" name="password" placeholder="password" />
+              <input onChange={this.onChange} className="spaceMe2" type="text" name="username" placeholder="username" />
+              <label className="spaceMe3" >Password:</label>
+              <input onChange={this.onChange} className="spaceMe4" type="password" name="password" placeholder="password" />
               <input onClick={this.compare} className="btn btn-lg QuoteBtn" type="submit" value="Login" />
             </div>
           </div>

@@ -14,77 +14,94 @@ import Before5 from "../../images/Buccleuch_1_edited.JPG";
 import After5 from "../../images/Buccleuch_2_edited.JPG";
 import Before6 from "../../images/NC_top_right_1_edited.JPG";
 import After6 from "../../images/NC_top_right_2_edited.JPG";
-
+import images1 from "../../images/images1.JPG";
+import images2 from "../../images/images2.JPG";
+import images3 from "../../images/images3.JPG";
 
 
 function Portfolio1() {
 
     return (
         <div className="borderPortfolio">
-        <div className="media portfolio-size">
-            <div className="row1">
-                <div className="comparison-1">
-                    <p className="name-style">Veneer Coat Plastering</p>
-                    <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
-                    <div className="image-style-portfolio">
-                        <ReactCompareImage leftImage={Before1} rightImage={After1} />
-                    </div>
-                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+
+            <div className="media morePhotos-size">
+                <div className="morePhotos-1">
+                    <p className="name-style">Link To More Portfolio Pictures</p>
+                    <h4 className="mobilePort">  </h4>
                     
-                </div>
+                    <img className="imagePortLink" alt="image here" src={images1}></img>
+                    <img className="imagePortLink3" alt="image here" src={images3}></img>
+                    <img className="imagePortLink2" alt="image here" src={images2}></img>
+                    
+                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn morePhotos-button">Click Here for More Photos</button></Link>
 
-                <div className="comparison-3">
-                    <p className="name-style">Historic Grainger Auditorium | North Carolina</p>
-                    <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
-                    <div className="image-style-portfolio">
-                        <ReactCompareImage leftImage={Before6} rightImage={After6} />
-                    </div>
-                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
-                </div>
-                
-                <div className="comparison-2">
-                    <p className="name-style">Buccleuch Mansion | New Brunswick, NJ</p>
-                    <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
-                    <div className="image-style-portfolio">
-                        <ReactCompareImage leftImage={Before5} rightImage={After5} />
-                    </div>
-                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
                 </div>
             </div>
 
-            <div className="row2">
+            <div className="media portfolio-size">
+                <div className="row1">
+                    <div className="comparison-1">
+                        <p className="name-style">Veneer Coat Plastering</p>
+                        <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
+                        <div className="image-style-portfolio">
+                            <ReactCompareImage leftImage={Before1} rightImage={After1} />
+                        </div>
+                        <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
 
-                <div className="comparison-3">
-                    <p className="name-style">Ornamental Plaster Repair</p>
-                    <h4 className="mobilePort">( Pull Slider in the middle of the picture or tap sides of the picture to view before and after images. )</h4>
-                    <div className="image-style-portfolio">
-                        <ReactCompareImage leftImage={Before2} rightImage={After2} />
                     </div>
-                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+
+                    <div className="comparison-3">
+                        <p className="name-style">Historic Grainger Auditorium | North Carolina</p>
+                        <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
+                        <div className="image-style-portfolio">
+                            <ReactCompareImage leftImage={Before6} rightImage={After6} />
+                        </div>
+                        <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+                    </div>
+
+                    <div className="comparison-2">
+                        <p className="name-style">Buccleuch Mansion | New Brunswick, NJ</p>
+                        <h4 className="mobilePort">( Pull Slider in the middle of the picture to view before and after images. )</h4>
+                        <div className="image-style-portfolio">
+                            <ReactCompareImage leftImage={Before5} rightImage={After5} />
+                        </div>
+                        <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+                    </div>
                 </div>
 
-                <div className="comparison-3">
-                    <p className="name-style"> Historic Masonic Temple Lobby | Trenton, NJ</p>
-                    <h4 className="mobilePort">( Pull Slider in the middle of the picture or tap sides of the picture to view before and after images. )</h4>
-                    <div className="image-style-portfolio">
-                        <ReactCompareImage leftImage={Before3} rightImage={After3} />
+                <div className="row2">
+
+                    <div className="comparison-3">
+                        <p className="name-style">Ornamental Plaster Repair</p>
+                        <h4 className="mobilePort">( Pull Slider in the middle of the picture or tap sides of the picture to view before and after images. )</h4>
+                        <div className="image-style-portfolio">
+                            <ReactCompareImage leftImage={Before2} rightImage={After2} />
+                        </div>
+                        <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
                     </div>
-                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+
+                    <div className="comparison-3">
+                        <p className="name-style"> Historic Masonic Temple Lobby | Trenton, NJ</p>
+                        <h4 className="mobilePort">( Pull Slider in the middle of the picture or tap sides of the picture to view before and after images. )</h4>
+                        <div className="image-style-portfolio">
+                            <ReactCompareImage leftImage={Before3} rightImage={After3} />
+                        </div>
+                        <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+                    </div>
+
+                    <div className="comparison-2">
+                        <p className="name-style">Historic Masonic Temple | Trenton, NJ</p>
+                        <h4 className="mobilePort">( Pull Slider in the middle of the picture or tap sides of the picture to view before and after images. )</h4>
+                        <div className="image-style-portfolio">
+                            <ReactCompareImage leftImage={Before4} rightImage={After4} />
+                        </div>
+                        <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+                    </div>
+
+
                 </div>
 
-                <div className="comparison-2">
-                    <p className="name-style">Historic Masonic Temple | Trenton, NJ</p>
-                    <h4 className="mobilePort">( Pull Slider in the middle of the picture or tap sides of the picture to view before and after images. )</h4>
-                    <div className="image-style-portfolio">
-                        <ReactCompareImage leftImage={Before4} rightImage={After4} />
-                    </div>
-                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
-                </div>
-
-                
             </div>
-
-        </div>
 
         </div>
 

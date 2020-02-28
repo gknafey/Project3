@@ -29,7 +29,7 @@ function Portfolio1() {
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before1} rightImage={After1} />
                     </div>
-                    <Link to="/RequestForm"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
                     
                 </div>
 
@@ -39,7 +39,7 @@ function Portfolio1() {
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before6} rightImage={After6} />
                     </div>
-                    <Link to="/RequestForm"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
                 </div>
                 
                 <div className="comparison-2">
@@ -48,7 +48,7 @@ function Portfolio1() {
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before5} rightImage={After5} />
                     </div>
-                    <Link to="/RequestForm"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
                 </div>
             </div>
 
@@ -60,7 +60,7 @@ function Portfolio1() {
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before2} rightImage={After2} />
                     </div>
-                    <Link to="/RequestForm"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
                 </div>
 
                 <div className="comparison-3">
@@ -69,7 +69,7 @@ function Portfolio1() {
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before3} rightImage={After3} />
                     </div>
-                    <Link to="/RequestForm"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
                 </div>
 
                 <div className="comparison-2">
@@ -78,7 +78,7 @@ function Portfolio1() {
                     <div className="image-style-portfolio">
                         <ReactCompareImage leftImage={Before4} rightImage={After4} />
                     </div>
-                    <Link to="/RequestForm"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
+                    <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn comparison-button">More Samples</button></Link>
                 </div>
 
                 

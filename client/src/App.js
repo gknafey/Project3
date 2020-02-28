@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 import JobManagement from "./pages/JobManagement";
 import HiddenLink from "./components/Hidden";
 import Archived from "./pages/Archived";
+import ImagesPortfolio from "./pages/FullImages";
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/" component={Homepage} />
           <Route exact path="/AboutUs" component={AboutUs} />
           <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/PortfolioImages" component={ImagesPortfolio}/>
           <Route exact path="/Services" component={Services} />
           <Route exact path="/ContactUs" component={ContactUs} />
           <Route exact path='/RequestForm' component={FormInfo} />

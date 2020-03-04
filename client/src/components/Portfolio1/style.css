@@ -18,6 +18,38 @@
 
 }
 
+.morePhotos-button {
+    margin-top: 12%;
+    min-width: 180px;
+    border: solid 5px #e5cdaa;
+    border-radius: 3px;
+}
+
+.morePhotos-1 {
+    margin: 0.5%;
+    min-width: 30%;
+    background-color: #00476b;
+    border: solid 25px #00476b;
+    border-radius:10px;
+    padding-bottom: 90px;
+    padding-right: 15px;
+    padding-left: 15px;  
+}
+
+.BAndFSection {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    text-emphasis: none;
+    background-color: #00476b;
+    width: 45%;
+    margin: 0 auto;
+    color: #fff;
+    border: solid 40px #00476b;
+    border-radius: 20px;
+
+}
+
 .borderPortfolio {
     border-bottom: solid 10px;
     border-top: solid 10px;
@@ -37,12 +69,7 @@
     border-radius: 3px;
 }
 
-.morePhotos-button {
-    margin-top: 12%;
-    min-width: 180px;
-    border: solid 5px #e5cdaa;
-    border-radius: 3px;
-}
+
 
 .image-style-portfolio {
    border: solid 10px #e5cdaa;
@@ -75,16 +102,7 @@
     
 }
 
-.morePhotos-1 {
-    margin: 0.5%;
-    min-width: 30%;
-    background-color: #00476b;
-    border: solid 25px #00476b;
-    border-radius:10px;
-    padding-bottom: 90px;
-    padding-right: 15px;
-    padding-left: 15px;  
-}
+
 
 .comparison-2 {
     margin: 0.5%;
@@ -134,6 +152,61 @@
     position: relative;
     top: 20px;
     left: -100px;
+}
+
+@media (max-width: 1024px) {
+    .imagePortLink {
+        width: 20%;
+        border: solid 5px #e5cdaa;
+        border-radius: 3px;
+        position: relative;
+        top: 40px;
+    }
+    
+    .imagePortLink2 {
+        width: 20%;
+        border: solid 5px #e5cdaa;
+        border-radius: 3px;
+        position: relative;
+        left: -200px;
+    }
+    
+    .imagePortLink3 {
+        width: 20%;
+        border: solid 5px #e5cdaa;
+        border-radius: 3px;
+        position: relative;
+        top: 20px;
+        left: -100px;
+    }
+
+    .morePhotos-size {
+        margin: 50px auto 50px auto;
+        width: 80%;
+        color: #fff;
+        background-color: #fff; 
+        border: solid 10px #00476b;
+        border-radius: 20px;
+    
+    }
+    
+    .morePhotos-button {
+        min-width: 300px;
+        border: solid 5px #e5cdaa;
+        border-radius: 3px;
+        margin: 0 auto;
+    }
+    
+    .morePhotos-1 {
+        margin: 0.5%;
+        min-width: 80%;
+        background-color: #00476b;
+        border: solid 25px #00476b;
+        border-radius:10px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+        padding-left: 0px;  
+    }
 }
 
 @media (max-width: 768px) {

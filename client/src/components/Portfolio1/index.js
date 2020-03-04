@@ -37,7 +37,7 @@ function Portfolio1() {
 
                 </div>
             </div>
-
+            <h2 className="BAndFSection">Before And After Photos</h2>
             <div className="media portfolio-size">
                 <div className="row1">
                     <div className="comparison-1">

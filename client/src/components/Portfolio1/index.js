@@ -29,9 +29,9 @@ function Portfolio1() {
                     <p className="name-style">Link To More Portfolio Pictures</p>
                     <h4 className="mobilePort">  </h4>
                     
-                    <img className="imagePortLink" alt="image here" src={images1}></img>
-                    <img className="imagePortLink3" alt="image here" src={images3}></img>
-                    <img className="imagePortLink2" alt="image here" src={images2}></img>
+                    <img className="imagePortLink" alt="alt here" src={images1}></img>
+                    <img className="imagePortLink3" alt="alt here" src={images3}></img>
+                    <img className="imagePortLink2" alt="alt here" src={images2}></img>
                     
                     <Link to="/PortfolioImages"><button type="button" className="btn btn-lg customBtn morePhotos-button">Click Here for More Photos</button></Link>
 

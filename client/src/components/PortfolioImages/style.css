@@ -1,0 +1,27 @@
+.Gallery {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    background-color: #00476b;
+    border: solid 25px #00476b;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.Images-Portfolio {
+    background-color: #00476b;
+    border: solid 15px #e5cdaa;
+    border-radius: 10px;
+    margin: 20px 32px 20px 32px;
+    width: 340px;
+    height: 440px;
+}
+
+.portfolioImagesback {
+    background-color: #00476b;
+    border: solid 25px #00476b;
+    border-radius: 10px;
+    margin: 20px 30px 20px 30px;
+}

@@ -137,6 +137,129 @@ import e110 from "../../images/e110.JPG";
 import e111 from "../../images/e111.JPG";
 import e112 from "../../images/e112.JPG";
 import e113 from "../../images/e113.JPG";
+import f1 from "../../images/f1.JPG";
+import f2 from "../../images/f2.JPG";
+import f3 from "../../images/f3.JPG";
+import f4 from "../../images/f4.JPG";
+import f5 from "../../images/f5.JPG";
+import f6 from "../../images/f6.JPG";
+import f7 from "../../images/f7.JPG";
+import f8 from "../../images/f8.JPG";
+import f9 from "../../images/f9.JPG";
+import f10 from "../../images/f10.JPG";
+import f11 from "../../images/f11.JPG";
+import f12 from "../../images/f12.JPG";
+import f13 from "../../images/f13.JPG";
+import f14 from "../../images/f14.JPG";
+import f15 from "../../images/f15.JPG";
+import f16 from "../../images/f16.JPG";
+import f17 from "../../images/f17.JPG";
+import f18 from "../../images/f18.JPG";
+import f19 from "../../images/f19.JPG";
+import f20 from "../../images/f20.JPG";
+import f21 from "../../images/f21.JPG";
+import f22 from "../../images/f22.JPG";
+import f23 from "../../images/f23.JPG";
+import f24 from "../../images/f24.JPG";
+import f25 from "../../images/f25.JPG";
+import f26 from "../../images/f26.JPG";
+import f27 from "../../images/f27.JPG";
+import f28 from "../../images/f28.JPG";
+import f29 from "../../images/f29.JPG";
+import f30 from "../../images/f30.JPG";
+import f31 from "../../images/f31.JPG";
+import f32 from "../../images/f32.JPG";
+import f33 from "../../images/f33.JPG";
+import f34 from "../../images/f34.JPG";
+import f35 from "../../images/f35.JPG";
+import f36 from "../../images/f36.JPG";
+import f37 from "../../images/f37.JPG";
+import f38 from "../../images/f38.JPG";
+import f39 from "../../images/f39.JPG";
+import f40 from "../../images/f40.JPG";
+import f41 from "../../images/f41.JPG";
+import f42 from "../../images/f42.JPG";
+import f43 from "../../images/f43.JPG";
+import f44 from "../../images/f44.JPG";
+import f45 from "../../images/f45.JPG";
+import f46 from "../../images/f46.JPG";
+import f47 from "../../images/f47.JPG";
+import f48 from "../../images/f48.JPG";
+import f49 from "../../images/f49.JPG";
+import f50 from "../../images/f50.JPG";
+import f51 from "../../images/f51.JPG";
+import f52 from "../../images/f52.JPG";
+import f53 from "../../images/f53.JPG";
+import f54 from "../../images/f54.JPG";
+import f55 from "../../images/f55.JPG";
+import f56 from "../../images/f56.JPG";
+import f57 from "../../images/f57.JPG";
+import f58 from "../../images/f58.JPG";
+import f59 from "../../images/f59.JPG";
+import f60 from "../../images/f60.JPG";
+import f61 from "../../images/f61.JPG"
+import f62 from "../../images/f62.JPG";
+import f63 from "../../images/f63.JPG";
+import f64 from "../../images/f64.JPG";
+import f65 from "../../images/f65.JPG";
+import f66 from "../../images/f66.JPG";
+import f67 from "../../images/f67.JPG";
+import f68 from "../../images/f68.JPG";
+import f69 from "../../images/f69.JPG";
+import f70 from "../../images/f70.JPG";
+import f71 from "../../images/f71.JPG";
+import f72 from "../../images/f72.JPG";
+import f73 from "../../images/f73.JPG";
+import f74 from "../../images/f74.JPG";
+import f75 from "../../images/f75.JPG";
+import f76 from "../../images/f76.JPG";
+import f77 from "../../images/f77.JPG";
+import f78 from "../../images/f78.JPG";
+import f79 from "../../images/f79.JPG";
+import f80 from "../../images/f80.JPG";
+import f81 from "../../images/f81.JPG";
+import f82 from "../../images/f82.JPG";
+import f83 from "../../images/f83.JPG";
+import f84 from "../../images/f84.JPG";
+import f85 from "../../images/f85.JPG";
+import f86 from "../../images/f86.JPG";
+import f87 from "../../images/f87.JPG";
+import f88 from "../../images/f88.JPG";
+import f89 from "../../images/f89.JPG";
+import f90 from "../../images/f90.JPG";
+import f91 from "../../images/f91.JPG";
+import f92 from "../../images/f92.JPG";
+import f93 from "../../images/f93.JPG";
+import f94 from "../../images/f94.JPG";
+import f95 from "../../images/f95.JPG";
+import f96 from "../../images/f96.JPG";
+import f97 from "../../images/f97.JPG";
+import g1 from "../../images/g1.JPG";
+import g2 from "../../images/g2.JPG";
+import g3 from "../../images/g3.JPG";
+import g4 from "../../images/g4.JPG";
+import g5 from "../../images/g5.JPG";
+import g6 from "../../images/g6.JPG";
+import g7 from "../../images/g7.JPG";
+import g8 from "../../images/g8.JPG";
+import g9 from "../../images/g9.JPG";
+import g10 from "../../images/g10.JPG";
+import h1 from "../../images/h1.JPG";
+import h2 from "../../images/h2.JPG";
+import j1 from "../../images/j1.JPG";
+import i1 from "../../images/i1.JPG";
+import i2 from "../../images/i2.JPG";
+import i3 from "../../images/i3.JPG";
+import i4 from "../../images/i4.JPG";
+import i5 from "../../images/i5.JPG";
+import i6 from "../../images/i6.JPG";
+import i7 from "../../images/i7.JPG";
+import i8 from "../../images/i8.JPG";
+import i9 from "../../images/i9.JPG";
+import i10 from "../../images/i10.JPG";
+import i11 from "../../images/i11.JPG";
+import i12 from "../../images/i12.JPG";
+import i13 from "../../images/i13.JPG";
 
 
 import "./style.css";
@@ -453,7 +576,7 @@ function PortfolioImages() {
                         src={e26}
                         alt=""
                     />
-                    
+
                     <img
                         className="Images-Portfolio"
                         zoomedSrc={e27}
@@ -509,7 +632,7 @@ function PortfolioImages() {
                         alt=""
                     />
 
-<img
+                    <img
                         className="Images-Portfolio"
                         zoomedSrc={e36}
                         src={e36}
@@ -977,7 +1100,754 @@ function PortfolioImages() {
                         src={e113}
                         alt=""
                     />
-                    
+
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f1}
+                        src={f1}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f2}
+                        src={f2}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f3}
+                        src={f3}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f4}
+                        src={f4}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f5}
+                        src={f5}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f6}
+                        src={f6}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f7}
+                        src={f7}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f8}
+                        src={f8}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f9}
+                        src={f9}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f10}
+                        src={f10}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f11}
+                        src={f11}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f12}
+                        src={f12}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f13}
+                        src={f13}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f14}
+                        src={f14}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f15}
+                        src={f15}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f16}
+                        src={f16}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f17}
+                        src={f17}
+                        alt=""
+                    />
+
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f18}
+                        src={f18}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f19}
+                        src={f19}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f20}
+                        src={f20}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f21}
+                        src={f21}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f22}
+                        src={f22}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f23}
+                        src={f23}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f24}
+                        src={f24}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f25}
+                        src={f25}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f26}
+                        src={f26}
+                        alt=""
+                    />
+
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f27}
+                        src={f27}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f28}
+                        src={f28}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f29}
+                        src={f29}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f30}
+                        src={f30}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f31}
+                        src={f31}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f32}
+                        src={f32}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f33}
+                        src={f33}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f34}
+                        src={f34}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f35}
+                        src={f35}
+                        alt=""
+                    />
+
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f36}
+                        src={f36}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f37}
+                        src={f37}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f38}
+                        src={f38}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f39}
+                        src={f39}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f40}
+                        src={f40}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f41}
+                        src={f41}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f42}
+                        src={f42}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f43}
+                        src={f43}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f44}
+                        src={f44}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f45}
+                        src={f45}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f46}
+                        src={f46}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f47}
+                        src={f47}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f48}
+                        src={f48}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f49}
+                        src={f49}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f50}
+                        src={f50}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f51}
+                        src={f51}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f52}
+                        src={f52}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f53}
+                        src={f53}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f54}
+                        src={f54}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f55}
+                        src={f55}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f56}
+                        src={f56}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f57}
+                        src={f57}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f58}
+                        src={f58}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f59}
+                        src={f59}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f60}
+                        src={f60}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f61}
+                        src={f61}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f62}
+                        src={f62}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f63}
+                        src={f63}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f64}
+                        src={f64}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f65}
+                        src={f65}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f66}
+                        src={f66}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f67}
+                        src={f67}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f68}
+                        src={f68}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f69}
+                        src={f69}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f70}
+                        src={f70}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f71}
+                        src={f71}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f72}
+                        src={f72}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f73}
+                        src={f73}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f74}
+                        src={f74}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f75}
+                        src={f75}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f76}
+                        src={f76}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f77}
+                        src={f77}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f78}
+                        src={f78}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f79}
+                        src={f79}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f80}
+                        src={f80}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f81}
+                        src={f81}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f82}
+                        src={f82}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f83}
+                        src={f83}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f84}
+                        src={f84}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f85}
+                        src={f85}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f86}
+                        src={f86}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f87}
+                        src={f87}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f88}
+                        src={f88}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f89}
+                        src={f89}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f90}
+                        src={f90}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f91}
+                        src={f91}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f92}
+                        src={f92}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f93}
+                        src={f93}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f94}
+                        src={f94}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f95}
+                        src={f95}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f96}
+                        src={f96}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={f97}
+                        src={f97}
+                        alt=""
+                    />
+
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={g1}
+                        src={g1}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={g2}
+                        src={g2}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={g3}
+                        src={g3}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={g4}
+                        src={g4}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={g5}
+                        src={g5}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={g6}
+                        src={g6}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={g7}
+                        src={g7}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={g8}
+                        src={g8}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={g9}
+                        src={g9}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={g10}
+                        src={g10}
+                        alt=""
+                    />
+
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={h1}
+                        src={h1}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={h2}
+                        src={h2}
+                        alt=""
+                    />
+
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={j1}
+                        src={j1}
+                        alt=""
+                    />
+
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i1}
+                        src={i1}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i2}
+                        src={i2}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i3}
+                        src={i3}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i4}
+                        src={i4}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i5}
+                        src={i5}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i6}
+                        src={i6}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i7}
+                        src={i7}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i8}
+                        src={i8}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i9}
+                        src={i9}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i10}
+                        src={i10}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i11}
+                        src={i11}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i12}
+                        src={i12}
+                        alt=""
+                    />
+                    <img
+                        className="Images-Portfolio"
+                        zoomedSrc={i13}
+                        src={i13}
+                        alt=""
+                    />
+
+
 
                 </BigPictureGallery>
             </div>

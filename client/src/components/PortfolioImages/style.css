@@ -25,3 +25,73 @@
     border-radius: 10px;
     margin: 20px 30px 20px 30px;
 }
+
+@media (max-width: 1024px) {
+    .Images-Portfolio {
+        margin: 20px 37px 20px 37px;
+        width: 380px;
+        height: 440px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Gallery {
+        width: 40%;
+    }
+    .Images-Portfolio {
+        margin: 20px 22px 20px 22px;
+        width: 285px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 414px) {
+    .Gallery {
+        width: 70%;
+        font-size: 35px;
+    }
+    .Images-Portfolio {
+        margin: 20px 20px 20px 12px;
+        width: 285px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Gallery {
+        width: 70%;
+        font-size: 35px;
+    }
+    .Images-Portfolio {
+        margin: 10px 0px 10px 1px;
+        width: 265px;
+        height: 375px;
+        border: solid 10px #e5cdaa;
+    }
+}
+
+@media (max-width: 360px) {
+    .Gallery {
+        width: 70%;
+        font-size: 30px;
+    }
+    .Images-Portfolio {
+        margin: 5px 0px 10px 0px;
+        width: 252px;
+        height: 350px;
+        border: solid 10px #e5cdaa;
+    }
+}
+
+@media (max-width: 320px) {
+    .Gallery {
+        width: 70%;
+        font-size: 25px;
+    }
+    .Images-Portfolio {
+        margin: 5px 0px 10px 0px;
+        width: 213px;
+        height: 325px;
+        border: solid 8px #e5cdaa;
+    }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import API from '../utils/API';
-import Logo from "../images/final.png"
+import Logo from "../images/final.webp"
 import { Container } from "../components/Grid";
 import { Redirect } from "react-router-dom";
 // import SignUpWrap from "../components/SignUp";

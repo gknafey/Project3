@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Image from "../../images/8.jpg";
+import Image from "../../images/8.webp";
 
 function AboutImage() {
     return (

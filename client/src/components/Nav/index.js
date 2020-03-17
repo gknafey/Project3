@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import Logo from "../../images/final.png"
+import Logo from "../../images/final.webp"
 
 function Nav() {
   return (

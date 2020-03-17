@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "../components/Grid";
-import Logo from "../images/final.png"
+import Logo from "../images/final.webp"
 import API from '../utils/API';
 // import LoginWrap from "../components/Login";
 import "../components/Login/style.css";

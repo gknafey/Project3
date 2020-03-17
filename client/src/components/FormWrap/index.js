@@ -2,7 +2,7 @@ import React from "react";
 import { Formik, Form, useField } from "formik";
 import moment from 'moment';
 import * as Yup from "yup";
-import Logo from "../../images/final.webp"
+import Logo from "../../images/final.png"
 import "./style.css";
 import API from "../../utils/API";
 

@@ -1,11 +1,11 @@
 import React from "react";
 import "./slide.css";
-import Image1 from "../../images/11test.webp"
-import Church from "../../images/Church_On_The_Green_1.webp"
-import Scaffold from "../../images/COG_on_scaffold.webp"
-import Church2 from "../../images/Church_On_The_Green_2.webp"
-import Trenton from "../../images/Trenton_Historic_Masonic_Temple.webp"
-import NC from "../../images/NC_Grainger_Auditorium.webp"
+import Image1 from "../../images/11test.jpg"
+import Church from "../../images/Church_On_The_Green_1.JPG"
+import Scaffold from "../../images/COG_on_scaffold.jpg"
+import Church2 from "../../images/Church_On_The_Green_2.JPG"
+import Trenton from "../../images/Trenton_Historic_Masonic_Temple.JPG"
+import NC from "../../images/NC_Grainger_Auditorium.JPG"
 import { Slide } from 'react-slideshow-image';
 
 const slideImages = [

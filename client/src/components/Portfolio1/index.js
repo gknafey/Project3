@@ -2,21 +2,21 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import ReactCompareImage from 'react-compare-image';
-import Before1 from "../../images/4BEFORE.webp";
-import After1 from "../../images/4AFTER.webp";
-import Before2 from "../../images/7BEFORE.webp";
-import After2 from "../../images/7AFTER.webp";
-import Before3 from "../../images/mason_A_edited.webp";
-import After3 from "../../images/mason_B_edited.webp";
-import Before4 from "../../images/mason_1_edited.webp";
-import After4 from "../../images/mason_2_edited.webp";
-import Before5 from "../../images/Buccleuch_1_edited.webp";
-import After5 from "../../images/Buccleuch_2_edited.webp";
-import Before6 from "../../images/NC_top_right_1_edited.webp";
-import After6 from "../../images/NC_top_right_2_edited.webp";
-import images1 from "../../images/images1.webp";
-import images2 from "../../images/images2.webp";
-import images3 from "../../images/images3.webp";
+import Before1 from "../../images/4BEFORE.jpg";
+import After1 from "../../images/4AFTER.jpg";
+import Before2 from "../../images/7BEFORE.jpg";
+import After2 from "../../images/7AFTER.jpg";
+import Before3 from "../../images/mason_A_edited.JPG";
+import After3 from "../../images/mason_B_edited.JPG";
+import Before4 from "../../images/mason_1_edited.JPG";
+import After4 from "../../images/mason_2_edited.JPG";
+import Before5 from "../../images/Buccleuch_1_edited.JPG";
+import After5 from "../../images/Buccleuch_2_edited.JPG";
+import Before6 from "../../images/NC_top_right_1_edited.JPG";
+import After6 from "../../images/NC_top_right_2_edited.JPG";
+import images1 from "../../images/images1.JPG";
+import images2 from "../../images/images2.JPG";
+import images3 from "../../images/images3.JPG";
 
 function Portfolio1() {
 

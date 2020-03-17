@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../images/final.webp"
+import Logo from "../../images/final.png"
 import "./style.css";
 
 function ContactInfo() {

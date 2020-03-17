@@ -1,5 +1,5 @@
 import React from "react";
-import Clients from "../../images/Clients.webp"
+import Clients from "../../images/Clients.JPG"
 import "./style.css";
 
 function AboutPageInfo() {

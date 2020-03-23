@@ -27,9 +27,9 @@ function PortfolioImages() {
                     />
                     <img
                         className="Images-Portfolio"
-                        zoomedSrc=""
-                        src="https://i.imgur.com/CJvfXuT.jpg"
-                        alt="https://i.imgur.com/CJvfXuTm.jpg"
+                        zoomedSrc="https://i.imgur.com/CJvfXuT.jpg"
+                        src="https://i.imgur.com/CJvfXuTm.jpg"
+                        alt=""
                     />
                     <img
                         className="Images-Portfolio"
@@ -49,7 +49,7 @@ function PortfolioImages() {
                         src="https://i.imgur.com/fDsbcx7m.jpg"
                         alt=""
                     />
-                    <imgm
+                    <img
                         className="Images-Portfolio"
                         zoomedSrc="https://i.imgur.com/UI1CR61.jpg"
                         src="https://i.imgur.com/UI1CR61m.jpg"

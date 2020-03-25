@@ -15,7 +15,7 @@ function AboutUsInfo() {
             commercial construction, throughout NJ and the surrounding areas.</p>
             </div>
 
-            <Link to="/AboutUs"> <button type="button" className="btn btn-lg customBtn aboutButton">Learn More</button> </Link>
+            <Link to="/AboutUs"> <button type="button" className="btn btn-lg customBtn aboutButton">About Us</button> </Link>
         </div>
 
   );

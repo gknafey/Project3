@@ -31,6 +31,46 @@
     border-radius: 3px;
 }
 
+
+@media (max-width: 1708px) {
+
+    .requestA {
+        width: 30%;
+        height: 100%;
+        background-color: #00476b;
+        text-align: left;
+        border: solid 3px #e5cdaa;
+        margin-left: 3.5%;
+        float: left;
+       
+    }
+    
+    .card-header {
+        font-size: 25px;
+        border-bottom: solid 2px #e5cdaa;
+    }
+    
+    .card-title {
+        font-size: 18px;
+    }
+    
+    .card-text {
+        font-size: 15px;
+    }
+    
+    .FormButton {
+        position: relative;
+        top: -20px;
+        left: -40px;
+        border: solid 3px #e5cdaa;
+        border-radius: 3px;
+    }
+   
+}
+
+
+
+
 @media (max-width: 1024px) {
 
     .requestA {

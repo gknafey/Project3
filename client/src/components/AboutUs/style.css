@@ -28,6 +28,21 @@
     border-radius: 3px;
 }
 
+@media (max-width: 1347px) {
+
+    .aboutButton {
+        position: relative;
+        top: -20px;
+        left: -40px;
+        border: solid 3px #e5cdaa;
+        border-radius: 3px;
+        min-width: 150px;
+       
+        
+    }
+   
+}
+
 @media (max-width: 1024px) {
 
     .aboutButton {

@@ -35,47 +35,131 @@
     margin-bottom: 50px;
     margin-left:40px;
     width:40%;
-    float:left;
+    float: left;
+    
 }
 
 .shift-right {
     margin-left: 50px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1024px) {
+
+    .shift-right {
+        font-size: 50px;
+        margin-left: 20px;
+    }
+
     .contact-info {
-        margin: 20px auto 20px auto;
-        padding: 20px;
-        width: 90%;
-        height: 100%;
-        color: #fff;
-        background-color: #00476b; 
-        border: solid 3px #e5cdaa;
-        border-radius: 3px;
+        margin: 110px auto 110px auto;
+        padding: 75px 30px 75px 30px;
+        
     }
     
     .contact-text {
-        line-height: 30px;
+        line-height: 60px;
+    }
+    
+    .contact-text-size {
+        font-size: 22px;
+    }
+    
+    .img-logo-contact {
+        width: 45%;;
+        margin: 50px 50px 100px 20px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    .shift-right {
+        font-size: 40px;
+        
+    }
+
+    .contact-info {
+        margin: 50px auto 50px auto;
+        padding: 20px;
+        width: 90%;
+        
+    }
+    
+    .contact-text {
+        line-height: 35px;
+    }
+    
+    .contact-text-size {
+        font-size: 16px;
+    }
+    
+    .img-logo-contact {
+        width: 45%;
+        margin-bottom: 65px;
+        margin: 30px 50px 65px 20px;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .shift-right {
+        font-size: 20px;
+    }
+
+    .contact-info {
+        padding: 30px;
+    }
+    
+    .contact-text-size {
+        font-size: 14px;
+    }
+    
+    .img-logo-contact {
+        width: 225px;
+        margin: 20px 10px 30px 20px;
+        float: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-info {
+        padding: 15px;
+    }
+    
+    .img-logo-contact {
+        width: 200px;
+        margin: 20px 10px 30px 40px;
+    }
+
+    .contact-text-size {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 360px) {
+    .contact-info {
+        padding: 10px;
     }
     
     .contact-text-size {
         font-size: 13px;
     }
+
+    .img-logo-contact {
+        width: 200px;
+        margin: 20px 10px 30px 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    
+    .contact-text-size {
+        font-size: 11px;
+    }
     
     .img-logo-contact {
-        background-color: #fff;
-        border: solid 5px #e5cdaa;
-        border-radius: 5px;
-        width: 200px;
-        margin-bottom: 65px;
-    }
-    
-    .shift-right {
-        margin-left: 50px;
-    }
-
-    .titleOrient {
-        font-size: 25px;
-        margin-left: 15px;
+        width: 175px;
+        margin: 20px 10px 30px 35px;
     }
 }

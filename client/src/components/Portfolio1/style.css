@@ -154,6 +154,13 @@
     left: -100px;
 }
 
+
+@media (max-width: 1265px) {
+    .morePhotos-button {
+        min-width: 300px;
+    }
+}
+
 @media (max-width: 1025px) {
     .imagePortLink {
         width: 28%;

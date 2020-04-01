@@ -43,6 +43,24 @@
     margin-left: 50px;
 }
 
+@media (max-width: 1588px) {
+    .contact-text-size {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1274px) {
+    .contact-text-size {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .contact-text-size {
+        font-size: 22px;
+    }
+}
+
 @media (max-width: 1024px) {
 
     .shift-right {

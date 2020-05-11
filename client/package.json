@@ -1,6 +1,6 @@
 {
   "name": "mern",
-  "homepage": "https://plasterrestorationsllc.com/",
+  "homepage": "http://plasterrestorationsllc.com/",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",

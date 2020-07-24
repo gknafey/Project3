@@ -14,24 +14,24 @@ client and archives all jobs submitted to the Request an Estimate page.
 Deployed using Heroku
 
 ##Built With
-React
-Node
-Express
-Heroku
-Git & Github
-MongoDB
-JavaScript
-HTML
-CSS
-BootStrap
-YUP
-mongoose
-react-slideshow-image
-bcrypt
-Axios
-moment.js
-yup
-formik
+*React
+*Node
+*Express
+*Heroku
+*Git & Github
+*MongoDB
+*JavaScript
+*HTML
+*CSS
+*BootStrap
+*YUP
+*mongoose
+*react-slideshow-image
+*bcrypt
+*Axios
+*moment.js
+*yup
+*formik
 
 ##Authors
 

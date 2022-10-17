@@ -35,12 +35,6 @@ function Nav() {
           <p className="nav-item center0 linedis" style={{ "color": "#e5cdaa" }}>&nbsp;|&nbsp;</p>
         </li>
         <li className="nav-item">
-          <Link to="/RequestForm" className="nav-item test center2">Request an Estimate </Link>
-        </li>
-        <li className="nav-item">
-          <p className="nav-item center0" style={{ "color": "#e5cdaa" }}>&nbsp;|&nbsp;</p>
-        </li>
-        <li className="nav-item">
           <Link to="/ContactUs" className="nav-item test center2">Contact Us </Link>
         </li>
       </ul>
